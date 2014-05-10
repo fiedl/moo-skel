@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Indicator Remindor
+Comment=Indicator Remindor
+Categories=GNOME;Utility;
+Exec=indicator-remindor
+Icon=indicator-remindor
+Terminal=false
+Type=Application

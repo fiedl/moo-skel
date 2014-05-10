@@ -1,0 +1,337 @@
+<!DOCTYPE kpartgui>
+<kpartgui version="76" name="kdenlive">
+ <MenuBar alreadyVisited="1">
+  <Menu noMerge="1" name="file" alreadyVisited="1">
+   <text>&amp;File</text>
+   <Action name="file_new"/>
+   <Action name="file_open"/>
+   <Action name="file_open_recent"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_save"/>
+   <Action name="file_save_as"/>
+   <Action name="file_revert"/>
+   <Separator weakSeparator="1"/>
+   <Action name="dvd_wizard"/>
+   <Action name="transcode_clip"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_close"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_quit"/>
+  </Menu>
+  <Menu noMerge="1" name="edit" alreadyVisited="1">
+   <text>&amp;Edit</text>
+   <Action name="edit_undo"/>
+   <Action name="edit_redo"/>
+   <Separator weakSeparator="1"/>
+   <Action name="edit_copy"/>
+   <Action name="edit_paste"/>
+   <Separator weakSeparator="1"/>
+   <Action name="paste_effects"/>
+   <Action name="project_find"/>
+   <Action name="project_find_next"/>
+  </Menu>
+  <Menu noMerge="1" name="project">
+   <text>Project</text>
+   <Action name="add_clip"/>
+   <Action name="add_color_clip"/>
+   <Action name="add_slide_clip"/>
+   <Action name="add_text_clip"/>
+   <Action name="add_text_template_clip"/>
+   <Action name="add_folder"/>
+   <Action name="download_resource"/>
+   <Menu noMerge="1" name="extract_audio">
+    <text>Extract Audio</text>
+   </Menu>
+   <Menu noMerge="1" name="clip_actions">
+    <text>Clip Jobs</text>
+   </Menu>
+   <Menu noMerge="1" name="transcoders">
+    <text>Transcode</text>
+   </Menu>
+   <Menu noMerge="1" name="generators">
+    <text>Generators</text>
+   </Menu>
+   <Menu noMerge="1" name="track_menu">
+    <text>Tracks</text>
+    <Action name="insert_track"/>
+    <Action name="delete_track"/>
+    <Action name="config_tracks"/>
+    <Separator/>
+    <Action name="select_track"/>
+    <Action name="select_all_tracks"/>
+   </Menu>
+   <Separator/>
+   <Action name="stopmotion"/>
+   <Separator/>
+   <Action name="reload_clip"/>
+   <Action name="proxy_clip"/>
+   <Menu noMerge="1" name="clip_in_timeline">
+    <text>Clip in Timeline</text>
+   </Menu>
+   <Action name="clip_properties"/>
+   <Action name="edit_clip"/>
+   <Action name="delete_clip"/>
+   <Separator/>
+   <Action name="project_clean"/>
+   <Action name="project_render"/>
+   <Action name="project_adjust_profile"/>
+   <Action name="project_settings"/>
+   <Action name="open_backup"/>
+   <Action name="archive_project"/>
+  </Menu>
+  <Menu noMerge="1" name="tool">
+   <text>Tool</text>
+   <Action name="normal_mode"/>
+   <Action name="overwrite_mode"/>
+   <Action name="insert_mode"/>
+   <Separator/>
+   <Action name="select_tool"/>
+   <Action name="razor_tool"/>
+   <Action name="spacer_tool"/>
+  </Menu>
+  <Menu noMerge="1" name="clip">
+   <text>Clip</text>
+   <Menu noMerge="1" name="marker_menu">
+    <text>Markers</text>
+    <Action name="add_clip_marker"/>
+    <Action name="edit_clip_marker"/>
+    <Action name="delete_clip_marker"/>
+    <Action name="delete_all_clip_markers"/>
+   </Menu>
+   <Action name="auto_transition"/>
+   <Action name="split_audio"/>
+   <Separator/>
+   <Action name="clip_audio_only"/>
+   <Action name="clip_video_only"/>
+   <Action name="clip_audio_and_video"/>
+  </Menu>
+  <Menu noMerge="1" name="timeline">
+   <text>Timeline</text>
+   <Menu noMerge="1" name="keyboard_selection">
+    <text>Selection</text>
+    <Action name="select_timeline_clip"/>
+    <Action name="select_add_timeline_clip"/>
+    <Action name="deselect_timeline_clip"/>
+    <Action name="select_timeline_transition"/>
+    <Action name="select_add_timeline_transition"/>
+    <Action name="deselect_timeline_transition"/>
+   </Menu>
+   <Menu noMerge="1" name="keyboard_insert">
+    <text>Insertion</text>
+    <Action name="overwrite_to_in_point"/>
+   </Menu>
+   <Action name="resize_timeline_clip_start"/>
+   <Action name="resize_timeline_clip_end"/>
+   <Menu noMerge="1" name="current_clip">
+    <text>Current clip</text>
+    <Action name="cut_timeline_clip"/>
+    <Action name="delete_timeline_clip"/>
+    <Action name="edit_item_duration"/>
+    <Action name="save_timeline_clip"/>
+   </Menu>
+   <Menu noMerge="1" name="guide_menu">
+    <text>Guides</text>
+    <Action name="add_guide"/>
+    <Action name="edit_guide"/>
+    <Action name="delete_guide"/>
+    <Action name="delete_all_guides"/>
+   </Menu>
+   <Menu noMerge="1" name="space_menu">
+    <text>Space</text>
+    <Action name="insert_space"/>
+    <Action name="delete_space"/>
+   </Menu>
+   <Action name="group_clip"/>
+   <Action name="ungroup_clip"/>
+   <Separator/>
+   <Menu noMerge="1" name="video_effects_menu">
+    <text>Add Effect</text>
+   </Menu>
+   <Separator/>
+   <Action name="show_video_thumbs"/>
+   <Action name="show_audio_thumbs"/>
+   <Action name="show_markers"/>
+   <Action name="snap"/>
+   <Separator/>
+   <Action name="zoom_in"/>
+   <Action name="zoom_out"/>
+   <Action name="zoom_fit"/>
+  </Menu>
+  <Menu noMerge="1" name="monitor">
+   <text>Monitor</text>
+   <Action name="monitor_play"/>
+   <Action name="monitor_play_zone"/>
+   <Action name="monitor_loop_zone"/>
+   <Action name="monitor_loop_clip"/>
+   <Separator/>
+   <Menu noMerge="1" name="monitor_go">
+    <text>Go To</text>
+    <Action name="seek_start"/>
+    <Action name="monitor_seek_snap_backward"/>
+    <Action name="seek_zone_start"/>
+    <Action name="seek_clip_start"/>
+    <Action name="seek_clip_end"/>
+    <Action name="seek_zone_end"/>
+    <Action name="monitor_seek_snap_forward"/>
+    <Action name="seek_end"/>
+   </Menu>
+   <Action name="monitor_seek_backward"/>
+   <Action name="monitor_seek_backward-one-frame"/>
+   <Action name="monitor_seek_backward-one-second"/>
+   <Action name="monitor_seek_forward-one-second"/>
+   <Action name="monitor_seek_forward-one-frame"/>
+   <Action name="monitor_seek_forward"/>
+   <Separator/>
+   <Action name="mark_in"/>
+   <Action name="mark_out"/>
+   <Separator/>
+   <Action name="monitor_fullscreen"/>
+   <Action name="mlt_interlace"/>
+   <Action name="mlt_interpolation"/>
+   <Action name="switch_monitor"/>
+   <Action name="insert_project_tree"/>
+   <Action name="insert_timeline"/>
+  </Menu>
+  <Menu noMerge="1" name="dockwindows">
+   <text>View</text>
+   <Menu noMerge="1" name="layout_save_as">
+    <text>Save Layout As</text>
+    <Action name="save_layout1"/>
+    <Action name="save_layout2"/>
+    <Action name="save_layout3"/>
+    <Action name="save_layout4"/>
+   </Menu>
+   <Action name="load_layouts"/>
+   <Action name="show_titlebars"/>
+   <Separator/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Separator weakSeparator="1"/>
+  <Menu noMerge="1" name="settings" alreadyVisited="1">
+   <text>&amp;Settings</text>
+   <Action name="manage_profiles"/>
+   <Action name="get_new_lumas"/>
+   <Action name="get_new_profiles"/>
+   <Action name="get_new_mlt_profiles"/>
+   <Action name="get_new_titles"/>
+   <Action name="run_wizard"/>
+   <Menu noMerge="1" name="themes_menu">
+    <text>Themes</text>
+   </Menu>
+   <Separator weakSeparator="1"/>
+   <Merge name="StandardToolBarMenuHandler"/>
+   <Merge name="KMDIViewActions"/>
+   <Action name="options_show_statusbar"/>
+   <Separator weakSeparator="1"/>
+   <Action name="fullscreen"/>
+   <Separator weakSeparator="1"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure_notifications"/>
+   <Action name="options_configure"/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Menu noMerge="1" name="help" alreadyVisited="1">
+   <text>&amp;Help</text>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar noMerge="1" name="mainToolBar" alreadyVisited="1">
+  <text>Main Toolbar</text>
+  <Action name="file_save"/>
+  <Action name="switch_monitor"/>
+  <Separator weakSeparator="1" name="separator_0"/>
+  <Action name="edit_undo"/>
+  <Action name="edit_redo"/>
+  <Separator name="separator_1"/>
+  <Action name="mark_in"/>
+  <Action name="mark_out"/>
+  <Separator name="separator_2"/>
+  <Action name="monitor_seek_backward"/>
+  <Action name="monitor_seek_backward-one-frame"/>
+  <Action name="monitor_play"/>
+  <Action name="monitor_seek_forward-one-frame"/>
+  <Action name="monitor_seek_forward"/>
+  <Action name="seek_start"/>
+  <Action name="seek_end"/>
+  <Separator name="separator_3"/>
+  <Action name="seek_clip_start"/>
+  <Action name="seek_clip_end"/>
+  <Separator name="separator_4"/>
+  <Separator name="separator_5"/>
+  <Action name="seek_zone_start"/>
+  <Action name="seek_zone_end"/>
+  <Separator name="separator_6"/>
+  <Action name="delete_timeline_clip"/>
+  <Action name="download_resource"/>
+ </ToolBar>
+ <ToolBar noMerge="1" name="extraToolBar">
+  <text>Extra Toolbar</text>
+  <Action name="video_effect_frei0r.scale0tilt"/>
+  <Action name="video_effect_crop"/>
+  <Action name="video_effect_fade_from_black"/>
+  <Action name="video_effect_fade_to_black"/>
+  <Action name="video_effect_fadein"/>
+  <Action name="video_effect_fadeout"/>
+  <Action name="video_effect_gain"/>
+  <Action name="video_effect_audiobalance"/>
+  <Action name="video_effect_mute"/>
+ </ToolBar>
+ <ActionProperties scheme="Default">
+  <Action iconText="In" name="mark_in"/>
+  <Action iconText="Out" name="mark_out"/>
+  <Action priority="0" name="monitor_seek_backward"/>
+  <Action priority="0" name="monitor_play"/>
+  <Action priority="0" name="edit_undo"/>
+  <Action priority="0" name="edit_redo"/>
+  <Action priority="0" name="file_save"/>
+  <Action priority="0" name="monitor_seek_forward"/>
+  <Action iconText="Mon" name="switch_monitor"/>
+  <Action priority="0" name="seek_start"/>
+  <Action priority="0" name="seek_end"/>
+  <Action priority="0" name="delete_timeline_clip"/>
+  <Action iconText="Ed" name="video_effect_crop"/>
+  <Action iconText="fB" name="video_effect_fade_from_black"/>
+  <Action iconText="tB" name="video_effect_fade_to_black"/>
+  <Action iconText="i" name="video_effect_fadein"/>
+  <Action iconText="o" name="video_effect_fadeout"/>
+  <Action iconText="CS" name="seek_clip_start"/>
+  <Action iconText="CE" name="seek_clip_end"/>
+  <Action iconText="Composite" name="transition_composite"/>
+  <Action iconText="G" name="video_effect_gain"/>
+  <Action iconText="M" name="video_effect_mute"/>
+  <Action iconText="ZS" name="seek_zone_start"/>
+  <Action iconText="ZE" name="seek_zone_end"/>
+  <Action priority="0" name="monitor_seek_forward-one-frame"/>
+  <Action priority="0" name="monitor_seek_backward-one-frame"/>
+  <Action iconText="Resources" priority="0" name="download_resource"/>
+  <Action iconText="Cr" name="video_effect_frei0r.scale0tilt"/>
+  <Action iconText="B" name="video_effect_audiobalance"/>
+  <Action iconText="Mask" name="video_effect_autotrack_rectangle"/>
+  <Action iconText="Text" name="video_effect_dynamictext"/>
+  <Action iconText="Ctext" name="video_effect_Comictext"/>
+  <Action priority="0" name="add_clip_marker"/>
+  <Action iconText="Sp" name="video_effect_speed"/>
+  <Action iconText="Ob" name="video_effect_obscure"/>
+ </ActionProperties>
+</kpartgui>

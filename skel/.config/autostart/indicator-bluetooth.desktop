@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=/usr/lib/indicator-bluetooth/indicator-bluetooth/indicator-bluetooth-service
+Hidden=true
+Name=Indicator Bluetooth
+NoDisplay=true
+StartupNotify=false
+Terminal=false
+Type=Application

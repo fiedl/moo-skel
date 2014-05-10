@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=urxvtd -q -o -f
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=urxvtd -q -o -f
+Name=urxvtd -q -o -f
+Comment[en_US]=Launches the Terminal Daemon
+Comment=Launches the Terminal Daemon

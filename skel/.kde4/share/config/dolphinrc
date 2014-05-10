@@ -1,0 +1,151 @@
+Height 1080=1081
+Height 768=749
+Height 900=551
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAABkAAAD/fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAgAAADQgAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawAAAAAgAAAD/QAAAD0A////AAAAAQAAALIAAAJK/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAAJKAAAABAD////7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAAD/////AAAAAAAAAAAAAAADAAADdwAAAJ78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADdwAAAAQA////AAAHgAAAA/0AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1024=903
+Width 1360=694
+Width 1376=688
+Width 1440=780
+Width 1920=1921
+
+[AdditionalInfoDialog]
+Height 1080=276
+Height 900=595
+Width 1440=879
+Width 1920=289
+
+[CompactMode]
+FontWeight=50
+PreviewSize=16
+UseSystemFont=false
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[DetailsMode]
+FontWeight=50
+PreviewSize=22
+UseSystemFont=false
+
+[DownloadDialog Settings]
+Height 1080=400
+Height 768=400
+Height 900=400
+Width 1024=700
+Width 1440=700
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+ConfirmClosingMultipleTabs=false
+HomeUrl=file:///home/moo
+ShowCopyMoveMenu=true
+ShowSpaceInfo=true
+Version=200
+ViewPropsTimestamp=2013,2,25,17,48,35
+
+[IconsMode]
+FontWeight=50
+IconSize=64
+TextWidthIndex=0
+UseSystemFont=false
+
+[KFileDialog Settings]
+Autoplay sounds=true
+Height 1080=450
+Width 1920=720
+
+[KFileMetaPropsPlugin]
+Height 1080=268
+Height 900=260
+Width 1440=277
+Width 1920=277
+
+[KPropertiesDialog]
+Height 1080=529
+Height 768=415
+Height 900=544
+Width 1024=474
+Width 1360=489
+Width 1368=751
+Width 1440=568
+Width 1920=683
+
+[MainWindow]
+Height 1080=463
+Height 480=864
+Height 600=429
+Height 724=575
+Height 768=464
+Height 900=463
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAABpAAABr/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAgAAADQgAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAgAAABrwAAAD0A////AAAAAQAAALIAAAJK/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAAJKAAAABAD////7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAAD/////AAAAAAAAAAAAAAADAAADdAAAAKX8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADdAAAAAQA////AAADBQAAAa8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1024=733
+Width 1280=782
+Width 1360=678
+Width 1368=1369
+Width 1376=688
+Width 1440=884
+Width 1920=884
+Width 3360=733
+Width 640=720
+Width 800=800
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Notification Messages]
+ConfirmDelete=true
+ConfirmEmptyTrash=true
+ShowVcsRestartInformation=false
+
+[Open-with settings]
+CompletionMode=5
+History=firefox,subl3 %F,/usr/lib/firefox/firefox %u,meld %F,/usr/bin/vlc --started-from-file %U,firefox-beta-bin %u,avidemux2_qt4,inkscape %F,/usr/lib/iceweasel/iceweasel %u,sudo_subl3,sudo subl3,mplayer,/usr/bin/vlc %U,mcomix %f,foxitreader
+
+[PreviewSettings]
+Plugins=comicbookthumbnail,cursorthumbnail,desktopthumbnail,directorythumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,westleypreview,windowsexethumbnail,windowsimagethumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[Search]
+ShowFacetsWidget=true
+What=Content
+
+[SettingsDialog]
+Height 1080=590
+Height 768=414
+Height 900=450
+Width 1024=524
+Width 1360=517
+Width 1376=517
+Width 1440=746
+Width 1920=776
+
+[Shortcut Schemes]
+Current Scheme=Default
+
+[Shortcuts]
+mainToolBar=F9
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[VersionControl]
+enabledPlugins=Bazaar,Git,Mercurial,Subversion
+
+[ViewPropertiesDialog]
+Height 1080=598
+Height 768=447
+Height 900=423
+Width 1368=391
+Width 1440=702
+Width 1920=821
+
+[kuick-copy]
+Paths[$e]=$HOME/Dropbox/Public,$HOME/Desktop,$HOME
+
+[kuick-move]
+Paths[$e]=$HOME/Desktop,$HOME/Desktop/moomode,$HOME/Desktop/MDK-LDC

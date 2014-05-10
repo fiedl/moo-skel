@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=network_notify
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Notify when network is up
+Name=Notify when network is up
+Comment[en_US]=Part of moo-scripts
+Comment=Part of moo-scripts

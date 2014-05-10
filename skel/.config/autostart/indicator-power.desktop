@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=/usr/lib/indicator-power/indicator-power-service
+Hidden=true
+Name=Indicator Power
+NoDisplay=true
+StartupNotify=false
+Terminal=false
+Type=Application

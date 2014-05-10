@@ -1,0 +1,14 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Theme - Nil/Big Duo.tmTheme",
+	"colored_folder_glyphs": true,
+	"font_face": "Terminus",
+	"font_size": 8,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"sidebar_folders": true,
+	"update_check": false
+}

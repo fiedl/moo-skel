@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" "http://standards.freedesktop.org/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Favorites</Name>
+  <DefaultAppDirs/>
+  <DefaultDirectoryDirs/>
+  <Layout>
+    <Filename>moo_os_installer.desktop</Filename>
+    <Filename>urxvtc.desktop</Filename>
+    <Filename>kde4-dolphin.desktop</Filename>
+    <Filename>sublime_text_3.desktop</Filename>
+    <Filename>sublime_text_3_root.desktop</Filename>
+    <Filename>firefox.desktop</Filename>
+    <Filename>vimb.desktop</Filename>
+    <Filename>vimb_proxy.desktop</Filename>
+    <Filename>kde4-kdenlive.desktop</Filename>
+    <Filename>vlc.desktop</Filename>
+    <Filename>xbmc.desktop</Filename>
+    <Filename>steam.desktop</Filename>
+    <Filename>gimp.desktop</Filename>
+    <Filename>filezilla.desktop</Filename>
+    <Filename>meld.desktop</Filename>
+    <Filename>keepassx.desktop</Filename>
+    <Filename>lxtask.desktop</Filename>
+  </Layout>
+  <Include>
+    <Filename>moo_os_installer.desktop</Filename>
+    <Filename>urxvtc.desktop</Filename>
+    <Filename>kde4-dolphin.desktop</Filename>
+    <Filename>sublime_text_3.desktop</Filename>
+    <Filename>sublime_text_3_root.desktop</Filename>
+    <Filename>firefox.desktop</Filename>
+    <Filename>vimb.desktop</Filename>
+    <Filename>vimb_proxy.desktop</Filename>
+    <Filename>kde4-kdenlive.desktop</Filename>
+    <Filename>vlc.desktop</Filename>
+    <Filename>xbmc.desktop</Filename>
+    <Filename>steam.desktop</Filename>
+    <Filename>gimp.desktop</Filename>
+    <Filename>filezilla.desktop</Filename>
+    <Filename>meld.desktop</Filename>
+    <Filename>keepassx.desktop</Filename>
+    <Filename>lxtask.desktop</Filename>
+  </Include>
+</Menu>

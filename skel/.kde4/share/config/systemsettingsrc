@@ -1,0 +1,41 @@
+[Colors]
+CurrentPalette=Oxygen Colors
+
+[ConfigDialog]
+Height 900=242
+Width 1440=416
+
+[DownloadDialog Settings]
+Height 1080=400
+Height 900=400
+Width 1440=700
+Width 1920=700
+
+[KFileDialog Settings]
+Height 1080=540
+Height 900=437
+Recent Files[$e]=$HOME,$HOME/github/mooOS-dev-tools/images/mooOS-128.png
+Recent URLs[$e]=$HOME/abs/,$HOME/Dev/mooOS_backups/,$HOME/Videos/,$HOME/github/mooOS-dev-tools/images/
+Width 1440=720
+Width 1920=960
+
+[KPropertiesDialog]
+Height 900=365
+Width 1440=485
+
+[MainWindow]
+Height 1080=448
+Height 900=448
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAs4AAAGiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1440=718
+Width 1920=718
+
+[Open-with settings]
+CompletionMode=5
+History=urxvtc,multitail,/usr/bin/vlc %U
+
+[classic_mode]
+autoExpandOneLevel=false
+viewLayout=200,509

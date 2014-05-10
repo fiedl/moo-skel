@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=autocutsel_launcher
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Clipboard Synchronizer
+Name=Clipboard Synchronizer
+Comment[en_US]=Part of moo-scripts
+Comment=Part of moo-scripts

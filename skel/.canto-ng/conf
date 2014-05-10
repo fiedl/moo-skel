@@ -1,0 +1,145 @@
+{
+    "CantoCurses": {
+        "browser": {
+            "path": " firefox %u"
+        },
+        "infobox": {
+            "key": {
+                "2": "transform None",
+                "down": "scroll-down",
+                "npage": "page-down",
+                "ppage": "page-up",
+                "space": "destroy",
+                "up": "scroll-up"
+            }
+        },
+        "reader": {
+            "enumerate_links": false,
+            "show_description": false
+        },
+        "story": {
+            "enumerated": true
+        },
+        "taglist": {
+            "border": true,
+            "key": {
+                "$": "item-state read t:. 0-.",
+                "+": "promote",
+                "-": "demote",
+                "/": "search",
+                "1": "transform filter_read",
+                "?": "search-regex",
+                "C": "collapse *",
+                "C-u": "unset-cursor",
+                "E": "toggle taglist.tags_enumerated",
+                "J": "next-tag",
+                "K": "prev-tag",
+                "M": "item-state -marked *",
+                "R": "item-state read *",
+                "U": "item-state -read *",
+                "V": "uncollapse *",
+                "c": "toggle-collapse",
+                "down": "rel-set-cursor 1",
+                "e": "toggle story.enumerated",
+                "g": "foritems & goto & item-state read & clearitems",
+                "j": "rel-set-cursor 1",
+                "k": "rel-set-cursor -1",
+                "n": "next-marked",
+                "npage": "page-down",
+                "p": "prev-marked",
+                "ppage": "page-up",
+                "r": "tag-state read",
+                "space": "foritem & item-state read & reader",
+                "u": "tag-state -read",
+                "up": "rel-set-cursor -1"
+            },
+            "tags_enumerated": false
+        },
+        "tagorder": [
+            "maintag:r/Linux",
+            "maintag:Arch Linux: Recent news updates",
+            "maintag:Commands with 10 up-votes",
+            "maintag:Hack a Day» linux hacks",
+            "maintag:Slashdot",
+            "maintag:How-To Geek",
+            "maintag:Liberian Geek",
+            "maintag:Lifehacker",
+            "maintag:OMG! Ubuntu!",
+            "maintag:HowtoForge - Linux Howtos and Tutorials -",
+            "maintag:Tech Drive-in",
+            "maintag:Web Upd8 - Ubuntu / Linux blog",
+            "maintag:All commands",
+            "maintag:Steam for Linux",
+            "maintag:Steam Client Beta RSS Feed"
+        ]
+    },
+    "defaults": {
+        "global_transform": "filter_read",
+        "keep_time": 86400,
+        "keep_unread": false,
+        "rate": 10
+    },
+    "feeds": [
+        {
+            "name": "Arch Linux: Recent news updates",
+            "url": "https://www.archlinux.org/feeds/news/"
+        },
+        {
+            "name": "Commands with 10 up-votes",
+            "url": "http://www.commandlinefu.com/feed/tenup"
+        },
+        {
+            "name": "Hack a Day» linux hacks",
+            "url": "http://hackaday.com/category/linux-hacks/feed"
+        },
+        {
+            "name": "HowtoForge - Linux Howtos and Tutorials -",
+            "url": "http://www.howtoforge.com/node/feed"
+        },
+        {
+            "name": "How-To Geek",
+            "url": "http://feeds.howtogeek.com/howtogeek"
+        },
+        {
+            "name": "Liberian Geek",
+            "url": "http://feeds.feedburner.com/LiberianGeek?format=xml"
+        },
+        {
+            "name": "Lifehacker",
+            "url": "http://feeds.gawker.com/lifehacker/full"
+        },
+        {
+            "name": "OMG! Ubuntu!",
+            "url": "http://feeds.feedburner.com/d0od?format=xml"
+        },
+        {
+            "name": "r/Linux",
+            "url": "http://www.reddit.com/r/linux/.rss"
+        },
+        {
+            "name": "Tech Drive-in",
+            "url": "http://feeds.feedburner.com/techdrivein?format=xml"
+        },
+        {
+            "name": "Web Upd8 - Ubuntu / Linux blog",
+            "url": "http://feeds.feedburner.com/webupd8?format=xml"
+        },
+        {
+            "name": "All commands",
+            "url": "http://feeds2.feedburner.com/Command-line-fu"
+        },
+        {
+            "name": "Steam for Linux",
+            "url": "http://steamforlinux.com/?q=en/rss.xml"
+        },
+        {
+            "name": "Steam Client Beta RSS Feed",
+            "url": "http://steamcommunity.com/groups/SteamClientBeta/rss/"
+        }
+    ],
+    "tags": {
+        "maintag:r/Linux": {
+            "collapsed": false
+        }
+    }
+}

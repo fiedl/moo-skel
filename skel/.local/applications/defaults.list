@@ -1,0 +1,9 @@
+[Default Applications]
+inode/directory=dolphin.desktop
+video/mp4=vlc.desktop
+x-scheme-handler/desura=desura.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/file=dolphin.desktop
+x-scheme-handler/terminal=urxvtc.desktop
+x-scheme-handler/mailto=mutt_client.desktop
