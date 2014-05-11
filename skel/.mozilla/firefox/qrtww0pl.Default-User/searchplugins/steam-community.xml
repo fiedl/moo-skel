@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- mooOS -->
+
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Steam Community</ShortName>
+<Description>Search for Players and Groups in the Steam Community</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAADX09T/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB//X09T/CQYH/wkGB/8JBgf/fHx8/8XKx//Fysf/dXN0/xwbG/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/Xltd//////8cGxv/HBsb/8DVyP91c3T/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/Xltd/8DVyP9eW13/tra2/7a2tv8cGxv/wNXI/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/m6yh////////////////////////////HBsb//////8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/////////////////////////////////xwbG///////xcrH/xwbG/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB////////////////////////////xwbG/+5v7z/////////////////dXN0/wkGB/8JBgf/CQYH/wkGB/8JBgf///////////91c3T/dXN0/7m/vP//////////////////////////////////////j5aR/xwbG/8JBgf/CQYH/1FWU/8JBgf/CQYH/wkGB/8JBgf/HBsb////////////////////////////////////////////Xltd/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/+MjIz///////////+2trb/DQkM/w0JDP8NCQz/a29t//////8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/8DVyP//////DQkM/5usof//////m6yh/xwbG///////Xltd/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/9RVlP//////w0JDP////////////////8NCQz//////15bXf8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/HBsb//////8NCQz/m6yh//////+brKH/HBsb//////8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/xwbG//Fysf//////w0JDP8NCQz/DQkM///////Fysf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/UVZT/8XKx//////////////////Fysf/DQkM/wkGB//Y1tb/CQYH/wkGB/8JBgf/CQYH/wkGB/8JBgf/CQYH/wkGB/8cGxv/HBsb/1FWU/8cGxv/CQYH/wkGB//Y1tb/AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//w==</Image>
+<Url type="text/html" method="POST" template="https://steamcommunity.com/actions/Search">
+  <Param name="K" value="{searchTerms}"/>
+</Url>
+<SearchForm>https://steamcommunity.com/actions/Search</SearchForm>
+</SearchPlugin>

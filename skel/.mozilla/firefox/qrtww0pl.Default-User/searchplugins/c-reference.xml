@@ -1,0 +1,14 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- mooOS -->
+
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>C++ Reference (non ssl)</ShortName>
+<Description>C++ Reference (cppreference.com site search)</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEgAACxIB0t1+/AAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAADP0lEQVQ4T2OAg///GRae/M+6+OBPuSUHfnktPfg7b+mB39VAXLh0/2+/Zft/y285/J8FqBCqAQk0NPxnXHHkF9+SAz+D4vMm7NIycnzPyy/yl4mZ+T83j8A/NV2rT7E5vbuXHPjtvuTEf3aoNigA2rz+2H++/mU3ctV0rF6BRHBhY2vfW0v3/rRecOA/E5APAYt2/mebuvZxuLS85jsg9z/Q1u/8QuK9GnrWxlkV03ls3OOkpOTU0lnZON6A5D1C8pYu2/ObF6wZBBYf/KNibO13Hsj8z8LK/sHA0tN+/nywDYxAzAxS0wDk65m6hQGFjnPxCGhkVcwHeQMkz8BQ3LYhD2jrPyDzv46JS8K2bVDNjIxhAsKSBaWtG8C2eYeVcPIJiHMyM7PwM7OwTnXyTtJfsu0tE4O5ffBBkGYhMZkTS0785AYpBgJ2JibmjU6+Kf9mbXqhBhUDAzZ2Lgsg9b997rlFwBhjYZBX0f8EEjCxDagQk1IS4eTi0eTg4jVnZGR64RNR/N/CKdRGQERKgZOHXwHofC1mFrYuSTm1/7kNy2bJKetJMnDzCoKdn1g4xZ2HTzgXGA5vQXxkrKxh+hjopV/o4g7eSRcZmJiYwJyJK+6YuAZk6Bc2r5kaGFd9BOjP/xXd267XTzm0rHvh5QUVPdtbyru2rpSS03hj7Rr1u27ywfVT1z5aAPLTX5ABzTNP+i3e/4q5f/lNVlY2zhYNfdv/09Y/rVx95D/r6lN/OBbv/84WntoqxMjE9D6vYcXzpQd/iS49/JuFQVBE6jXIgPDU5hlLDv3ml5KSYgaKpWVUzv07d/t7oyWHfnIXNq/25uETjODk4lXUN3O/OGHFndWL9v1gA+pjYJCSU18BMkBaQevdnG3v05cd+SvTt/ymyPxt79SXHfilBDQkRV3P5iFIDdDgwt7FtyQX7/kmBEyAYP0Mjt6ppsC4/Q5SIK9i8CmrZtHOmZte9E7f8Kw/rXzOHqDYZ5Ac0Kv3w9NbZf4Dkz4KmLnpKbOskl48MN5/ALnwEEbGQM2XrV2i1YGaIakPHay6+p9JS9/ekIuHfzErG/sTYBr4BTTwKzsn9xmgswtyaxdwY9gMBgwMALijTqSpnZhUAAAAAElFTkSuQmCC</Image>
+<Url type="text/html" method="GET" template="http://en.cppreference.com/mwiki/index.php?title=Special:Search&amp;search={searchTerms}">
+</Url>
+<SearchForm>http://en.cppreference.com/mwiki/index.php?title=Special:Search</SearchForm>
+</SearchPlugin>

@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- mooOS -->
+
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>MoviePosterDB.com (non ssl)</ShortName>
+<Description>Search MoviePosterDB.com</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADhUExURZu81QBZk6zF1d1BF/bVxYu0zUGDtPbd1UmDrIOsxaS8zd1JF3qkxTB6rCh6rLzN3RdyrOaDYhdqm6zF3VGTvP729vbFpOZySebu9u6ki91BIABqrHKkvPbVzbTN3WqbxVmTtEmLtAdZk1mTvOZiMDBypDiDtHKkxeZ6SXqszebm5ihypHq01ZO81aTF1TiLvPbdzQdik+ZZKLzV5u7FtDh6rO6TakGDrIOsze6Tg83m7sXV5t3u9u68rA9im7TN1f727u7u9uZyQe6DauZ6WdXV3QBipO6sk////91JKAAAAB/qfuQAAABLdFJOU///////////////////////////////////////////////////////////////////////////////////////////////////AMsZ8KwAAAEASURBVHjaYvBiMPaCAyYmL4AAYvDSdNOB8WUYubwAAojBy0JaWh/CN1dS4vICCCAGL1YBAQE+YS8vflUhISEmL4AAYvDS5VNU4+PlYeXl5TBVtfcCCCAGLwY2EQl1NiDgtOHg4PcCCCAGL2ERESsDOWVlJhZrBQV+L4AAYvCSk5fnEjfTchUTY5Lh4PICCCCgoYo8rJIqgk6C7DzajAxeAAHE4MXJaKcnoSFupOLAwwgUAAggoIAhg6MkNxC4i7ICBQACCCjAJOrMDAJSlh7CDF4AAcQAdCE7iyyLFDOQYAdyAAKIAeoNF092CAMggGACtoJQAYAAggl4mUBpgAADAK+BKpmlJEoyAAAAAElFTkSuQmCC</Image>
+<Url type="text/html" method="GET" template="http://www.movieposterdb.com/search/">
+  <Param name="query" value="{searchTerms}"/>
+</Url>
+<SearchForm>http://www.movieposterdb.com/search/</SearchForm>
+</SearchPlugin>
