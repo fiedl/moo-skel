@@ -7,7 +7,7 @@ mooOS files and directories
 Install with
 ------------
 
-    $ makepkg -sfi PKGBUILD
+    $ makepkg -sfic PKGBUILD
 
 example:
     
