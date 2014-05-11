@@ -34,7 +34,7 @@ build() {
 package() {
 	cd "$srcdir/$pkgname/skel"
 	msg2 "Installing mooOS skeleton files and directories."
-	mkdir -p "${pkgdir}/etc/skel/"
-    cp -r "$srcdir/$pkgname/skel/" "${pkgdir}/etc/skel/"
+	mkdir -p "${pkgdir}/etc"
+    cp -r "$srcdir/$pkgname/skel" "${pkgdir}/etc/"
 	msg2 "Installed ${pkgname}-${pkgver}"
 }
