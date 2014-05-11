@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- mooOS -->
+
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>LDC Search</ShortName>
+<Description>Search Linux Distro Community Forum</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD///8A////AP///wD+/v4A3+/5K9Tr+Dj09vga9vf4F/f4+RX19/gZz+r4P6nk92vu9vsc////AP///wD///8A////AKLi93tp2/ezQdP22hnW+/0d0Pz/Toyu025vcZ52eHqZaG1yqCXF9fwT3/3/Ktj28Mjo90z+/v4A////AP7+/gFHyfblJMn9/z3G/f9LwP3/RbP7/4Sszf+8ztv/u83a/4KQm/85ru3/JsX9/x7R/f8X2Pv9V9T1y/n7/Qz///8AXrT23mu//P+BxP3/dL38/yNLcv+Sn6r/0ub1/9Lm9f/S5vX/drr0/1W4/f9Rw/3/KcP9/2HM9sb9/f4G////ANfp+jyKwvbAoNL9/1CLwv9WXWL/usfQ/7C3vP+0r6v/xtPd/4u97P9WhKz/RWqI/0Gl8vzR5/lI////AP///wD///8A8fP1JCRCYf2DjZf/ytPZ/7mzsP+pinb/rY57/6qOfP+sqqz/ZG12/0hJSf9BREjg////AP///wD///8A////APz8/AU7OzvuY2Rl/8jHx/+dgnD/jo9s/6iukv+cfmr/oIt+/4GEhv8/Pz//OTk53v///wD///8A////AP///wD///8ApKSkfiYmJv+Yjof/qYt4/4i7gP90tXP/s5yN/66glv8wMDD/Kysq/5CQkI7///8A////AP///wD///8A////APn5+Qlubm7NQT49/8Gqmv/GsaP/0svH/8Kqmv97d3T/FBMT/1dXV9zz8/MR////AP///wD///8A////AP///wD///8A7e3tHC8vL+W7vb7/0s7K/9bX1//Nzs7/IyQl/ywsLOrl5eUp////AP///wD///8A////AP///wD///8A////AP///wCpqallTpi0/x/T9/9G0fX/dqa5/wAAAP+7u7tQ////AP///wD///8A////AP///wD///8A////AP///wD///8A2tvcODuEr/9pxvz/Qajj/zt0lf8ODg73/f39Bv///wD///8A////AP///wD///8A////AP///wD///8A////ANXV1Thzdnj/PEdS/4CEiP9pbW//EhIS9v7+/gD///8A////AP///wD///8A////AP///wD///8A////AP///wDg4OAuPDs7/Ts7O/9RUFD/NDQ0/y4uLuD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/f39A52dna6SkpL9lZWV/1tbW/ypqalk////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD+/v4D4uLiM8/Pz1fn5+ci////AP///wD///8A////AP///wD///8A//8AAMAHAACAAQAAgAEAAMADAADgAwAA4AMAAPADAADwBwAA+A8AAPwfAAD8HwAA/B8AAPwfAAD8PwAA//8AAA==</Image>
+<Url type="text/html" method="POST" template="https://bbs.linuxdistrocommunity.com/search.php">
+  <Param name="keywords" value="{searchTerms}"/>
+  <Param name="action" value="do_search"/>
+</Url>
+<SearchForm>https://github.com/search</SearchForm>
+</SearchPlugin>

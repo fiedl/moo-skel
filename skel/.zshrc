@@ -329,6 +329,8 @@ alias pxclip='torsocks wgetpaste --service gists --language Shell  --xcut --xcli
 ## usage: cat <file> | pfile
 ## e.g.: cat ~/.zshrc | pfile
 alias pfile='torsocks wgetpaste --service gists --language Shell --xclippaste'
+alias google='goo'
+alias googleimages='gi'
 alias startpage='sp'
 alias sudo='sudo '
 alias _='sudo'
@@ -363,7 +365,7 @@ alias cspan2='rtmpdump -q -v -r "rtmp://cp82347.live.edgefcs.net:1935/live" -y C
 ## CSPAN3
 alias cspan3='rtmpdump -q -v -r "rtmp://cp82348.live.edgefcs.net:1935/live" -y CSPAN3@14847 -W "http://www.c-span.org/cspanVideoHD.swf" -p "http://www.c-span.org/Live-Video/C-SPAN3/" | vlc -q --input-title-format "CSPAN3" - &'
 ## RT
-alias rt='rtmpdump -q -v -r "rtmp://fms5.visionip.tv/live" -a live -W "http://rt.com/s/swf/player5.4.viral.swf" | vlc -q --input-title-format "Russia Today" - &'
+alias rt='rtmpdump -q -v -r "rtmp://rt.fms-04.visionip.tv/live/rt-global-live-HD" -a live -W "http://rt.com/s/swf/player5.4.viral.swf" | vlc -q --input-title-format "Russia Today" - &'
 ## Youtube Viewer
 alias yt='youtube-viewer  --prefer-https --prefer-webm --use-colors --quiet --7 -S -C -q --mplayer="/usr/bin/vlc" --mplayer-args="-q"'
 ## useful stuffs
@@ -379,7 +381,7 @@ alias wgettor='usewithtor wget'
 alias curltor='usewithtor curl'
 # misc
 alias grep='grep --color=auto'
-#alias delthumbs='rm -rv ~/.thumbnails/ && rm ~/.kde4/cache-$HOST/icon-cache.kcache'
+alias delthumbs='rm -rv ~/.thumbnails/ && rm ~/.kde4/cache-$HOST/icon-cache.kcache'
 alias reload='source ~/.zshrc'
 alias xreload='xrdb ~/.Xdefaults' 
 alias delfonts='fc-cache -vf'

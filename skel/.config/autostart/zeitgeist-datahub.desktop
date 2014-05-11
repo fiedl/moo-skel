@@ -1,11 +1,12 @@
 [Desktop Entry]
-Version=1.0
-Encoding=UTF-8
-Name=Zeitgeist Datahub
+Categories=
 Comment=Start the Zeitgeist Datahub for passive loggers
+Encoding=UTF-8
 Exec=zeitgeist-datahub
+GenericName=
+Hidden=true
+Name=Zeitgeist Datahub
 Terminal=false
 Type=Application
-Categories=
-GenericName=
+Version=1.0
 X-GNOME-Autostart-enabled=false

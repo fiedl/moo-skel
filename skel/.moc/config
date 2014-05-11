@@ -69,7 +69,7 @@
 #
 # Example:    MusicDir = "/home/joe/music"
 #
-MusicDir = "/home/moo/Music"
+MusicDir = "/home/pdq/Music"
 
 # Start in the music directory by default?  If set to 'no', start
 # in the current directory by default.  A single directory on
@@ -644,8 +644,8 @@ XTermTheme = transparent-background
 # to stopped (i.e., when user stopped playing or changes a song).
 #OnStop = "/home/jack/.moc/myscript_on_stop"
 
- OnSongChange = "/home/moo/bin/mochg artist %a songtitle %t album %r"
- OnStop = "/home/moo/bin/mochg"
+ OnSongChange = "/home/pdq/bin/mochg artist %a songtitle %t album %r"
+ OnStop = "/home/pdq/bin/mochg"
 # This option determines which song to play after finishing all the songs
 # in the queue.  Setting this to 'yes' causes MOC to play the song which
 # follows the song being played before queue playing started. If set to

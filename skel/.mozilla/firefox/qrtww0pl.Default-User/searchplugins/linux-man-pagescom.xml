@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- mooOS -->
+
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Linux Man Pages.com (non ssl)</ShortName>
+<Description>Searches the linux manpages</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAACKUlEQVR42oSRP2gTYRjGn7tcLqZySdqe0UETrfZPKCgJUTooQXCIU4SiU7EEMnUS/w0lUnTtVDcHK8VBtNJq29BojIhS20GKlGhFz2BKc2mT1Kgx197l7j6HJMQEwWf6Pnif98fzPiBV6USvvsbGxliW5TguHA5LkkQaBVJ3EEKIIAhWqxWA0WgEMDo62mSgURMFABBF0Xu8z3nw8PkLA0c6u2Ox52gU0/S3tba7nKb+U3sVplDI8UVJ/o+Bpowu2/tB/69tWVheUJJbh4rFIsdx9YEmgyiuF0yn333wZuQhX2Ak9e3zo8nJhom/A6XT6WAwmEqtZTKbmqbLsuxyuXieFwThH6EBDA8PA3A4DtjtewBSVpTAuUA+nw+FQqqqNhNEUfR4PIlEghCi6Vqll1wu53a7AUSj0WbC3fGJ7u6e3t7ecrmsazoFCgDP8w6HE0A8Hm8ITQheRB72dHXUmbVFJhMNoFS7Lw1Akbd+pqbuXSvvp+cWFpdZlqUoqtKjknlQyiwB8PcZ6hnSK7c3pkzktWVzzuLztk0/fVZhqIQkXw5Fbhke3zD/fnNUk1arGWi9xJkVVTfYW+nwoG7brVR2zc7Gpp9Ezvpa+v27GGllc+l6tentYrH03cYyUpuFOtFhuDkxMn5/Jp9dn59/dTWwQ6Eln91R2wdsrksAKEKIrsmF3Ncfa4sbn6JfPq6aOy/u6zrJMhTDmpNv7yA7c+zM5R7flQr2zwAkdFj7ZEG+cgAAAABJRU5ErkJggg==</Image>
+<Url type="text/html" method="POST" template="http://www.linuxmanpages.com/search.php">
+  <Param name="term" value="{searchTerms}"/>
+  <Param name="section" value="-1"/>
+  <Param name="submitted" value="1"/>
+  <Param name="submit" value="Get Man Page"/>
+</Url>
+<SearchForm>http://www.linuxmanpages.com/search.php</SearchForm>
+</SearchPlugin>

@@ -41,7 +41,7 @@ Favorites=
 
 [General]
 ConfirmClosingMultipleTabs=false
-HomeUrl=file:///home/moo
+HomeUrl=file:///home/pdq
 ShowCopyMoveMenu=true
 ShowSpaceInfo=true
 Version=200
@@ -82,7 +82,7 @@ Height 724=575
 Height 768=464
 Height 900=463
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAABpAAABr/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAgAAADQgAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAgAAABrwAAAD0A////AAAAAQAAALIAAAJK/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAAJKAAAABAD////7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAAD/////AAAAAAAAAAAAAAADAAADdAAAAKX8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADdAAAAAQA////AAADBQAAAa8AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAABzAAABBPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAgAAADQgAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAgAAABBAAAAD0A////AAAAAQAAALIAAAJK/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAAJKAAAABAD////7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAAD/////AAAAAAAAAAAAAAADAAADdAAAAKX8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAADdAAAAAQA////AAAC+wAAAQQAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1024=733
 Width 1280=782
@@ -105,7 +105,7 @@ ShowVcsRestartInformation=false
 
 [Open-with settings]
 CompletionMode=5
-History=firefox,subl3 %F,/usr/lib/firefox/firefox %u,meld %F,/usr/bin/vlc --started-from-file %U,firefox-beta-bin %u,avidemux2_qt4,inkscape %F,/usr/lib/iceweasel/iceweasel %u,sudo_subl3,sudo subl3,mplayer,/usr/bin/vlc %U,mcomix %f,foxitreader
+History=/usr/bin/qtcreator,vogleditor %f,firefox,subl3 %F,/usr/lib/firefox/firefox %u,meld %F,/usr/bin/vlc --started-from-file %U,firefox-beta-bin %u,avidemux2_qt4,inkscape %F,/usr/lib/iceweasel/iceweasel %u,sudo_subl3,sudo subl3,mplayer,/usr/bin/vlc %U
 
 [PreviewSettings]
 Plugins=comicbookthumbnail,cursorthumbnail,desktopthumbnail,directorythumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,westleypreview,windowsexethumbnail,windowsimagethumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
@@ -148,4 +148,4 @@ Width 1920=821
 Paths[$e]=$HOME/Dropbox/Public,$HOME/Desktop,$HOME
 
 [kuick-move]
-Paths[$e]=$HOME/Desktop,$HOME/Desktop/moomode,$HOME/Desktop/MDK-LDC
+Paths[$e]=$HOME/Desktop,$HOME/Desktop/pdqmode,$HOME/Desktop/MDK-LDC

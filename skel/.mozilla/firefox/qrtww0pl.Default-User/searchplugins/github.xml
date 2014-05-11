@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!-- mooOS -->
+
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/">
+<ShortName>GitHub</ShortName>
+<Description>Search for code, repos or users on GitHub</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAeFJREFUOMulkz9vE0EQxX+zd0hQgD+AG1BsRYjCh+9kJP5VWCBBgdOEQOvGn4OCj0BjylBQxCkoQA4NfwrQre0CQnGAoLAoqM6VJe52KNigKxKMxJNWu6vZ92beaEdUlSqiKOoEQdAHuiJSB1DVOTAuy3I4m83eVd/LgUCz2TxVq9UeAneBqXNuR0QyL9A0xmwA54HHeZ4Psixb/BHw5DHQUNW+tXbEIUiS5DbwCPiU53k3y7KFAfCZG8ClxWLxgiOwXC73nHNXgIbnIK1WqxOG4VugVxTFtyAILDACngNrvsovInJRRLacczeMMSeBUVEUF0LfsGmaprtRFHVERIANv343SoTKOUzTdDdJkmkQBH0DdJ1zOwDGmJusxi0Az+kaEakfdNsYc2cVW0S2/J6JSN34i/PxE6sEVPV4lWNUde6cW/fB9/9QwQdvYV1V5wYYG2N6Pv4A+PmX7E5V73u7PWBsyrIcAu04jnvW2ldFUVxW1W3ge4X4Q1WfiMg1a+3TOI57QLssy6GoKkmSbAPXnXNXJ5PJvv91Fmh7ga/W2jN+Vs6FYfgSeJam6T0DkOf5APgsIm/iON70idcqvk8DxHG8GQTBa/+VB0cOk6rui0gTOFax8VFEzh46TP8zzr8A+q35IYJG0owAAAAASUVORK5CYII=</Image>
+<Url type="text/html" method="GET" template="https://github.com/search">
+  <Param name="q" value="{searchTerms}"/>
+  <Param name="type" value="Everything"/>
+  <Param name="start_value" value="1"/>
+  <Param name="ref" value="simplesearch"/>
+</Url>
+<SearchForm>https://github.com/search</SearchForm>
+</SearchPlugin>

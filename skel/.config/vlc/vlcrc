@@ -4022,7 +4022,7 @@ advanced=1
 stats=0
 
 # Interface module (string)
-#intf=
+intf=qt4
 
 # Extra interface modules (string)
 #extraintf=

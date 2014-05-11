@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
+                   value="" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-box"
+                   sidebarcommand=""
+                   width=""
+                   src="" />
+  <RDF:Description RDF:about="chrome://browser/content/search/engineManager.xul">
+    <NC:persist RDF:resource="chrome://browser/content/search/engineManager.xul#engineManager"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/search/engineManager.xul#engineManager"
+                   screenX="437"
+                   width="467"
+                   height="350"
+                   screenY="160" />
+  <RDF:Description RDF:about="chrome://browser/content/places/bookmarkProperties2.xul">
+    <NC:persist RDF:resource="chrome://browser/content/places/bookmarkProperties2.xul#bookmarkproperties"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
+                   screenX="1711"
+                   screenY="177"
+                   width="1341"
+                   height="871"
+                   sizemode="normal" />
+  <RDF:Description RDF:about="chrome://browser/content/places/bookmarkProperties2.xul#bookmarkproperties"
+                   screenX="470"
+                   screenY="338"
+                   width="400" />
+</RDF:RDF>

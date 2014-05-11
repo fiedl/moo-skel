@@ -56,6 +56,9 @@
             "tags_enumerated": false
         },
         "tagorder": [
+            "maintag:Linux Distro Community Forums - All Forums",
+            "maintag:Infowars",
+            "maintag:Dota 2 on Reddit",
             "maintag:r/Linux",
             "maintag:Arch Linux: Recent news updates",
             "maintag:Commands with 10 up-votes",
@@ -80,6 +83,10 @@
         "rate": 10
     },
     "feeds": [
+        {
+            "name": "Slashdot",
+            "url": "http://rss.slashdot.org/slashdot/Slashdot"
+        },
         {
             "name": "Arch Linux: Recent news updates",
             "url": "https://www.archlinux.org/feeds/news/"
@@ -138,6 +145,9 @@
         }
     ],
     "tags": {
+        "maintag:Slashdot": {
+            "collapsed": false
+        },
         "maintag:r/Linux": {
             "collapsed": false
         }
