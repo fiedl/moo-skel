@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Octopi Notifier
+Comment=Octopi Notifier
+Categories=GNOME;Utility;
+Exec=octopi-notifier
+Icon=octopi
+Terminal=false
+X-GNOME-Autostart-enabled=true
+Type=Application
