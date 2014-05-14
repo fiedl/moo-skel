@@ -1,4 +1,4 @@
-MooOS skeleton files
+mooOS skeleton files
 ====================
 
 mooOS files and directories
