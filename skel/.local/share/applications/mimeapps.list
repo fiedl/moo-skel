@@ -8,7 +8,7 @@ video/mp4=vlc.desktop;mplayer.desktop;
 video/x-ms-wmv=vlc.desktop;mplayer.desktop;
 image/jpeg=mcomix.desktop;gimp.desktop;firefox.desktop;feh.desktop;
 image/png=mcomix.desktop;gimp.desktop;firefox.desktop;feh.desktop;
-audio/x-vorbis+ogg=vlc.desktop
+audio/x-vorbis+ogg=vlc.desktop;
 
 [Default Applications]
 inode/directory=dolphin.desktop;
