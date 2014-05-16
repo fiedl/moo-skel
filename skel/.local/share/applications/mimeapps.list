@@ -1,2 +1,14 @@
+[Added Associations]
+text/plain=sublime_text_3.desktop;sublime_text_3_root.desktop;
+text/html=sublime_text_3.desktop;sublime_text_3_root.desktop;
+text/x-matlab=sublime_text_3.desktop;sublime_text_3_root.desktop;
+text/calendar=sublime_text_3.desktop;
+video/mp2t=vlc.desktop;mplayer.desktop;
+video/mp4=vlc.desktop;mplayer.desktop;
+video/x-ms-wmv=vlc.desktop;mplayer.desktop;
+image/jpeg=mcomix.desktop;gimp.desktop;firefox.desktop;feh.desktop;
+image/png=mcomix.desktop;gimp.desktop;firefox.desktop;feh.desktop;
+audio/x-vorbis+ogg=vlc.desktop
+
 [Default Applications]
 inode/directory=dolphin.desktop;
