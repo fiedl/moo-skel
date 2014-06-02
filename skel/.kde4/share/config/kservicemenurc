@@ -46,6 +46,7 @@ mount=true
 mountiso=true
 moveAndGetPublicURL=true
 openTerminalHere=true
+runInKonsole=true
 secure_delete=true
 selected=true
 sendPublicURLgmail=true
