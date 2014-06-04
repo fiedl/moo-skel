@@ -71,4 +71,4 @@ Terminal=false
 Type=Application
 Categories=System;
 X-GNOME-UsesNotifications=true
-X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-enabled=false
