@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=indicator-cpufreq
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=indicator-cpufreq
+Name=indicator-cpufreq
+Comment[en_US]=
+Comment=
