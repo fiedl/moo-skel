@@ -7,3 +7,4 @@ net_notify.desktop
 clipboard_sync.desktop
 indicator-cpufreq.desktop
 /etc/xdg/autostart/octopi-notifier.desktop
+psensor.desktop
