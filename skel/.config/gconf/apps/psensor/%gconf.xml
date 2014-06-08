@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="notif_script" mtime="1401839927" type="string">
+		<stringvalue></stringvalue>
+	</entry>
+</gconf>

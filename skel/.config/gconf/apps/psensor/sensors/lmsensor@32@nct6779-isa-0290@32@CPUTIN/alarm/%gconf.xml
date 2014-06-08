@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="low_threshold" mtime="1401841289" type="int" value="0"/>
+	<entry name="high_threshold" mtime="1401841289" type="int" value="0"/>
+</gconf>

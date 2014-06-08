@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="monitoring_duration" mtime="1401839977" type="int" value="10"/>
+	<entry name="update_interval" mtime="1401839977" type="int" value="1"/>
+	<entry name="background_alpha" mtime="1401839977" type="float" value="0.10638297872340426"/>
+	<entry name="foreground_color" mtime="1401839977" type="string">
+		<stringvalue>#88888a8a8585</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1401839977" type="string">
+		<stringvalue>#0d0d0d0d0d0d</stringvalue>
+	</entry>
+</gconf>
