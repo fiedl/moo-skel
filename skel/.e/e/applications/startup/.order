@@ -1,7 +1,4 @@
-e19startups.desktop
 /etc/xdg/autostart/pulseaudio.desktop
 /etc/xdg/autostart/pulseaudio-kde.desktop
 /etc/xdg/autostart/vboxclient.desktop
-urxvt_daemon.desktop
 net_notify.desktop
-clipboard_sync.desktop
