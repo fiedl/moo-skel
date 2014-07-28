@@ -42,6 +42,7 @@ ViewPropsTimestamp=2013,2,25,17,48,35
 FontFamily=Droid Sans
 FontWeight=50
 IconSize=80
+PreviewSize=80
 TextWidthIndex=0
 UseSystemFont=false
 
@@ -67,13 +68,13 @@ Width 1440=568
 Width 1920=683
 
 [MainWindow]
-Height 1080=416
-Height 900=416
+Height 1080=1081
+Height 900=877
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAACDAAABfPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAgAAADQgAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAkAAABfAAAAEsA////AAAAAQAAALIAAAJK/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAAJKAAAABAD////7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAAD/////AAAAAAAAAAAAAAADAAAC+wAAAJn8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAC+wAAAAQA////AAACcgAAAXwAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAACDAAAD/fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAgAAADQgAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAkAAAD/QAAAEsA////AAAAAQAAALIAAAJK/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAAJKAAAABAD////7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAAD/////AAAAAAAAAAAAAAADAAAC+wAAAJn8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAC+wAAAAQA////AAADNwAAA/0AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
-Width 1440=763
-Width 1920=763
+Width 1440=720
+Width 1920=960
 
 [MainWindow][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
@@ -85,7 +86,7 @@ ShowVcsRestartInformation=false
 
 [Open-with settings]
 CompletionMode=5
-History=cr3 %F,xpdf %f,/usr/bin/atom %U,avidemux2_qt4,avidemux2_gtk,subl3 %F,sudo_subl3
+History=subl3 %F,cr3 %F,xpdf %f,/usr/bin/atom %U,avidemux2_qt4,avidemux2_gtk,sudo_subl3
 
 [PreviewSettings]
 Plugins=comicbookthumbnail,cursorthumbnail,desktopthumbnail,directorythumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,westleypreview,windowsexethumbnail,windowsimagethumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
