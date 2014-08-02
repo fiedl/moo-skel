@@ -73,7 +73,8 @@
             "maintag:Web Upd8 - Ubuntu / Linux blog",
             "maintag:All commands",
             "maintag:Steam for Linux",
-            "maintag:Steam Client Beta RSS Feed"
+            "maintag:Steam Client Beta RSS Feed",
+            "maintag:Privacy and Freedom in the Information Age"
         ]
     },
     "defaults": {
@@ -142,6 +143,10 @@
         {
             "name": "Steam Client Beta RSS Feed",
             "url": "http://steamcommunity.com/groups/SteamClientBeta/rss/"
+        },
+        {
+            "name": "Privacy and Freedom in the Information Age",
+            "url": "http://www.reddit.com/r/privacy/.rss"
         }
     ],
     "tags": {

@@ -1,0 +1,7 @@
+[General]
+AutoStart=false
+Number of Actions=0
+Version=4.98.0
+
+[Notification Messages]
+StartAutomatically=false

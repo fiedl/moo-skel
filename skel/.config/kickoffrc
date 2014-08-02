@@ -1,0 +1,11 @@
+[Favorites]
+FavoriteURLs=/opt/kf5/share/applications/systemsettings.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/urxvtc.desktop,/usr/share/applications/steam.desktop,/usr/share/applications/filezilla.desktop,/home/pdq/.local/share/applications/tubefox.desktop,/usr/share/applications/mumble.desktop,/usr/share/applications/xbmc.desktop,/usr/share/applications/vlc.desktop,/usr/share/applications/musicp.desktop,/usr/share/applications/avidemux-gtk.desktop,/usr/share/applications/kde4/kdenlive.desktop,/usr/share/applications/kde4/k3b.desktop,/usr/share/applications/octopi.desktop,/usr/share/applications/lxtask.desktop,/usr/share/applications/terminology.desktop,/usr/share/applications/virtualbox.desktop,/usr/share/applications/keepassx.desktop,/usr/share/applications/sublime_text_3_root.desktop,/usr/share/applications/sublime_text_3.desktop,/usr/share/applications/moo_os_installer.desktop
+
+[KRunner]
+loadAll=false
+
+[KRunner][PlasmaRunnerManager]
+pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations,baloosearch
+
+[RecentlyUsed]
+Applications=

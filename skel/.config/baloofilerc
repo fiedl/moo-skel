@@ -1,0 +1,6 @@
+[Basic Settings]
+Indexing-Enabled=false
+
+[General]
+exclude folders[$e]=/media/backup3/
+folders[$e]=$HOME/

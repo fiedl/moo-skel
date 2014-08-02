@@ -1,0 +1,22 @@
+[ConfigDialog]
+Height 1080=265
+Width 1920=391
+
+[FileDialogSize]
+Height 1080=584
+Width 1920=793
+
+[KFileDialog Settings]
+Height 1080=510
+Recent Files[$e]=mooOS-48.png,$HOME/github/mooOS-dev-tools/images/mooOS-48.png
+Recent URLs[$e]=$HOME/github/mooOS-dev-tools/images/
+Width 1920=816
+
+[MainWindow]
+Height 1080=600
+Height 900=600
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAtAAAAIzAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1440=720
+Width 1920=720

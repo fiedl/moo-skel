@@ -1,0 +1,36 @@
+kcminputrc Mouse cursorTheme 'breeze_cursors'
+!/home/pdq/.local/shareshare/config/kcminputrc
+!/opt/kf5/shareshare/config/kcminputrc
+!/usr/shareshare/config/kcminputrc
+!/usr/local/shareshare/config/kcminputrc
+*
+kcminputrc Mouse cursorSize ''
+!/home/pdq/.local/shareshare/config/kcminputrc
+!/opt/kf5/shareshare/config/kcminputrc
+!/usr/shareshare/config/kcminputrc
+!/usr/local/shareshare/config/kcminputrc
+*
+ksplashrc KSplash Theme Breeze
+!/home/pdq/.local/shareshare/config/ksplashrc
+!/opt/kf5/shareshare/config/ksplashrc
+!/usr/shareshare/config/ksplashrc
+!/usr/local/shareshare/config/ksplashrc
+*
+ksplashrc KSplash Engine KSplashQML
+!/home/pdq/.local/shareshare/config/ksplashrc
+!/opt/kf5/shareshare/config/ksplashrc
+!/usr/shareshare/config/ksplashrc
+!/usr/local/shareshare/config/ksplashrc
+*
+kcmfonts General forceFontDPI 0
+!/home/pdq/.local/shareshare/config/kcmfonts
+!/opt/kf5/shareshare/config/kcmfonts
+!/usr/shareshare/config/kcmfonts
+!/usr/local/shareshare/config/kcmfonts
+*
+kdeglobals Locale Language '' # trigger requesting languages from KLocale
+!/home/pdq/.local/shareshare/config/kdeglobals
+!/opt/kf5/shareshare/config/kdeglobals
+!/usr/shareshare/config/kdeglobals
+!/usr/local/shareshare/config/kdeglobals
+*
