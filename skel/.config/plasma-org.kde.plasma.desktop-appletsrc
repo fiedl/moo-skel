@@ -130,7 +130,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][10][Applets][32][Configuration][General]
 favoriteApps=systemsettings.desktop,kde4-dolphin.desktop
-recentApps=tubefox.desktop,kde4-dolphin.desktop,kdesystemsettings.desktop
+recentApps=systemsettings.desktop,tubefox.desktop,kde4-dolphin.desktop,kdesystemsettings.desktop
 
 [Containments][10][Applets][34]
 immutability=2
@@ -143,7 +143,7 @@ iconName=system-file-manager
 url=file:///usr/share/applications/kde4/dolphin.desktop
 
 [Containments][10][ConfigDialog]
-DialogHeight=87
+DialogHeight=88
 DialogWidth=1920
 
 [Containments][10][General]

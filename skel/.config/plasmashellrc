@@ -20,7 +20,7 @@ panelVisibility=0
 
 [PlasmaViews][Panel 10][Horizontal1920]
 length=1920
-panelVisibility=0
+panelVisibility=1
 thickness=34
 
 [PlasmaViews][Panel 10][Types::Vertical1080]
