@@ -143,7 +143,7 @@ iconName=system-file-manager
 url=file:///usr/share/applications/kde4/dolphin.desktop
 
 [Containments][10][ConfigDialog]
-DialogHeight=88
+DialogHeight=87
 DialogWidth=1920
 
 [Containments][10][General]
