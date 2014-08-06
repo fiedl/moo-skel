@@ -27,6 +27,7 @@
     <Filename>system_log.desktop</Filename>
     <Filename>octopi.desktop</Filename>
     <Filename>lxtask.desktop</Filename>
+    <Filename>tubefox.desktop</Filename>
   </Layout>
   <Include>
     <Filename>moo_os_installer.desktop</Filename>
@@ -51,5 +52,6 @@
     <Filename>system_log.desktop</Filename>
     <Filename>octopi.desktop</Filename>
     <Filename>lxtask.desktop</Filename>
+    <Filename>tubefox.desktop</Filename>
   </Include>
 </Menu>
