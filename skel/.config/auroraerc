@@ -1,9 +1,0 @@
-[Engine]
-EngineType=qml
-ThemeName=kwin4_decoration_qml_breeze
-
-[kwin4_decoration_qml_breeze]
-BorderSize=7
-ButtonSize=0
-titleAlignCenter=true
-titleAlignLeft=false
