@@ -78,6 +78,43 @@ podcast-urls=http://feeds.feedburner.com/TheLinuxLinkTechShowOgg-vorbisFeed
 # Peak height (integer)
 #spect-peak-height=1
 
+[projectm] # libprojectM effect
+
+# projectM preset path (string)
+#projectm-preset-path=/usr/share/projectM/presets
+
+# Title font (string)
+#projectm-title-font=/usr/share/fonts/TTF/DejaVuSans.ttf
+
+# Font menu (string)
+#projectm-menu-font=/usr/share/fonts/TTF/DejaVuSansMono.ttf
+
+# Video width (integer)
+#projectm-width=800
+
+# Video height (integer)
+#projectm-height=500
+
+# Mesh width (integer)
+#projectm-meshx=32
+
+# Mesh height (integer)
+#projectm-meshy=24
+
+# Texture size (integer)
+#projectm-texture-size=1024
+
+[goom] # Goom effect
+
+# Goom display width (integer)
+#goom-width=800
+
+# Goom display height (integer)
+#goom-height=500
+
+# Goom animation speed (integer)
+#goom-speed=6
+
 [colorthres] # Color threshold filter
 
 # Color (integer)
@@ -1147,6 +1184,29 @@ logo-position=0
 
 # Sample rate (integer)
 #alsa-samplerate=48000
+
+[vcdx] # Video CD (VCD 1.0, 1.1, 2.0, SVCD, HQVCD) input
+
+# If nonzero, this gives additional debug information. (integer)
+#vcdx-debug=0
+
+# Number of CD blocks to get in a single read. (integer)
+#vcdx-blocks-per-read=20
+
+# Use playback control? (boolean)
+#vcdx-PBC=0
+
+# Use track length as maximum unit in seek? (boolean)
+#vcdx-track-length=1
+
+# Show extended VCD info? (boolean)
+#vcdx-extended-info=0
+
+# Format to use in the playlist's "author" field. (string)
+#vcdx-author-format=%v - %F disc %c of %C
+
+# Format to use in the playlist's "title" field. (string)
+#vcdx-title-format=%I %N %L%S - %M %A %v - disc %c of %C %F
 
 [access_udp] # UDP input
 
@@ -2565,6 +2625,20 @@ telx-ignore-subtitle-flag=1
 
 # Advanced options. (string)
 #sout-avcodec-options=
+
+[twolame] # Libtwolame audio encoder
+
+# Encoding quality (float)
+#sout-twolame-quality=0.000000
+
+# Stereo mode (integer)
+#sout-twolame-mode=0
+
+# VBR mode (boolean)
+#sout-twolame-vbr=0
+
+# Psycho-acoustic model (integer)
+#sout-twolame-psy=3
 
 [motion] # motion control interface
 
