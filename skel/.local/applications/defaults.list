@@ -1,11 +1,24 @@
 [Default Applications]
-inode/directory=dolphin.desktop
+inode/directory=enlightenment_filemanager.desktop
+application/x-tar=7zFM.desktop
+application/x-shellscript=sublime_text_3.desktop
+video/x-ms-wmv=vlc.desktop
+text/x-tcl=sublime_text_3.desktop
+application/x-wine-extension-ini=sublime_text_3.desktop
+video/mpeg=vlc.desktop
 video/mp4=vlc.desktop
-application/zip=ark.desktop
-x-scheme-handler/desura=desura.desktop
+text/x-csrc=sublime_text_3.desktop
+application/zip=7zFM.desktop
+image/x-apple-ios-png=firefox.desktop
 x-scheme-handler/http=firefox.desktop
+x-scheme-handler/desura=desura.desktop
+video/x-msvideo=vlc.desktop
 x-scheme-handler/https=firefox.desktop
 text/plain=sublime_text_3.desktop
 x-scheme-handler/file=dolphin.desktop
 x-scheme-handler/terminal=urxvtc.desktop
+image/svg+xml=gimp.desktop
+application/x-compressed-tar=7zFM.desktop
 x-scheme-handler/mailto=mutt_client.desktop
+video/x-matroska=vlc.desktop
+application/x-php=sublime_text_3.desktop
