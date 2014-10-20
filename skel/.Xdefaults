@@ -25,29 +25,37 @@ URxvt*inheritPixmap: true
 ! rxvt-unicode
 URxvt*urgentOnBell:  true
 
-*color0:     #101010
-*color8:     #404040
-!red
-*color1:     #E84F4F
-*color9:     #D23D3D
-!green
-*color2:     #B8D68C
-*color10:    #A0CF5D
-!yellow
-*color3:     #E1AA5D
-*color11:    #F39D21
-!blue
-*color4:     #0851BA
-*color12:    #4E9FB1
-!magenta
-*color5:     #FF2B50
-*color13:    #8542FF
-!cyan
-*color6:     #6D878D
-*color14:    #42717B
-!white
-*color7:     #dddddd
-*color15:    #dddddd
+! Black
+*color0:   #111111
+*color8:   #666666
+
+! Red
+*color1:   rgb:d3/62/65
+*color9:   rgb:ef/81/71
+
+! Green
+*color2:   #aece91
+*color10:  #cfefb3
+
+! Yellow
+*color3:   rgb:e7/e1/8c
+*color11:  rgb:ff/f7/96
+
+! Blue
+*color4:   #5297cf
+*color12:  #74b8ef
+
+! Magenta
+*color5:   #963c59
+*color13:  #b85e7b
+
+! Cyan
+*color6:   #5E7175
+*color14:  #A3BABF
+
+! White
+*color7:   #bebebe
+*color15:  #ffffff
 
 ! enable clickable links
 URxvt*url-launcher: firefox
@@ -69,10 +77,10 @@ URxvt*font: xft:terminus:pixelsize=14:antialias=false
 !URxvt*font: xft:Envy Code R-10
 URxvt*boldFont: xft:terminus:bold:pixelsize=14:antialias=false
 URxvt*iconFile: /usr/share/icons/Cheser/32x32/apps/terminal.png
-URxvt*background: rgba:0000/0000/0000/dddd
-!URxvt*background: rgba:0190/0200/0210/dddd
+!URxvt*background: rgba:0000/0000/0000/dddd
+URxvt*background: #0F0F0F
 URxvt*foreground: #d3d3d3
-URxvt*transparent: true
+!URxvt*transparent: true
 !Urxvt*fading: 10
 !Urxvt*fadeColor: #a146ff
 URxvt*perl-ext-common:  default,clipboard,matcher,font-size

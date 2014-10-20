@@ -27,6 +27,7 @@
     <Filename>simplescreenrecorder.desktop</Filename>
     <Filename>system_log.desktop</Filename>
     <Filename>octopi.desktop</Filename>
+    <Filename>meld.desktop</Filename>
   </Layout>
   <Include>
     <Filename>moo_os_installer.desktop</Filename>
@@ -51,5 +52,6 @@
     <Filename>simplescreenrecorder.desktop</Filename>
     <Filename>system_log.desktop</Filename>
     <Filename>octopi.desktop</Filename>
+    <Filename>meld.desktop</Filename>
   </Include>
 </Menu>
