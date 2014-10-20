@@ -10,6 +10,7 @@ application/x-wine-extension-ini=sublime_text_3.desktop
 video/mpeg=vlc.desktop
 video/mp4=vlc.desktop
 text/x-csrc=sublime_text_3.desktop
+text/x-patch=sublime_text_3.desktop
 application/zip=ark.desktop
 image/x-apple-ios-png=firefox.desktop
 x-scheme-handler/http=firefox.desktop
