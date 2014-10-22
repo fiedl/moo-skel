@@ -154,7 +154,7 @@ toolBarFont=Ubuntu,8,-1,5,50,0,0,0,0,0
 widgetStyle=oxygen
 
 [Icons]
-Theme=Numix
+Theme=Faience-Azur
 
 [KDE]
 ShowDeleteCommand=true

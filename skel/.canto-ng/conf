@@ -13,6 +13,7 @@
                 "up": "scroll-up"
             }
         },
+        "kill_daemon_on_exit": true,
         "reader": {
             "enumerate_links": false,
             "show_description": false
@@ -56,23 +57,8 @@
             "tags_enumerated": false
         },
         "tagorder": [
-            "maintag:Linux Distro Community Forums - All Forums",
-            "maintag:Infowars",
-            "maintag:Dota 2 on Reddit",
             "maintag:r/Linux",
             "maintag:Arch Linux: Recent news updates",
-            "maintag:Commands with 10 up-votes",
-            "maintag:Hack a Day» linux hacks",
-            "maintag:Slashdot",
-            "maintag:How-To Geek",
-            "maintag:Liberian Geek",
-            "maintag:Lifehacker",
-            "maintag:OMG! Ubuntu!",
-            "maintag:HowtoForge - Linux Howtos and Tutorials -",
-            "maintag:Tech Drive-in",
-            "maintag:Web Upd8 - Ubuntu / Linux blog",
-            "maintag:All commands",
-            "maintag:Steam for Linux",
             "maintag:Steam Client Beta RSS Feed",
             "maintag:Privacy and Freedom in the Information Age"
         ]
@@ -85,68 +71,20 @@
     },
     "feeds": [
         {
-            "name": "Slashdot",
-            "url": "http://rss.slashdot.org/slashdot/Slashdot"
-        },
-        {
             "name": "Arch Linux: Recent news updates",
             "url": "https://www.archlinux.org/feeds/news/"
         },
         {
-            "name": "Commands with 10 up-votes",
-            "url": "http://www.commandlinefu.com/feed/tenup"
-        },
-        {
-            "name": "Hack a Day» linux hacks",
-            "url": "http://hackaday.com/category/linux-hacks/feed"
-        },
-        {
-            "name": "HowtoForge - Linux Howtos and Tutorials -",
-            "url": "http://www.howtoforge.com/node/feed"
-        },
-        {
-            "name": "How-To Geek",
-            "url": "http://feeds.howtogeek.com/howtogeek"
-        },
-        {
-            "name": "Liberian Geek",
-            "url": "http://feeds.feedburner.com/LiberianGeek?format=xml"
-        },
-        {
-            "name": "Lifehacker",
-            "url": "http://feeds.gawker.com/lifehacker/full"
-        },
-        {
-            "name": "OMG! Ubuntu!",
-            "url": "http://feeds.feedburner.com/d0od?format=xml"
-        },
-        {
             "name": "r/Linux",
-            "url": "http://www.reddit.com/r/linux/.rss"
-        },
-        {
-            "name": "Tech Drive-in",
-            "url": "http://feeds.feedburner.com/techdrivein?format=xml"
-        },
-        {
-            "name": "Web Upd8 - Ubuntu / Linux blog",
-            "url": "http://feeds.feedburner.com/webupd8?format=xml"
-        },
-        {
-            "name": "All commands",
-            "url": "http://feeds2.feedburner.com/Command-line-fu"
-        },
-        {
-            "name": "Steam for Linux",
-            "url": "http://steamforlinux.com/?q=en/rss.xml"
+            "url": "https://www.reddit.com/r/linux/.rss"
         },
         {
             "name": "Steam Client Beta RSS Feed",
-            "url": "http://steamcommunity.com/groups/SteamClientBeta/rss/"
+            "url": "https://steamcommunity.com/groups/SteamClientBeta/rss/"
         },
         {
             "name": "Privacy and Freedom in the Information Age",
-            "url": "http://www.reddit.com/r/privacy/.rss"
+            "url": "https://www.reddit.com/r/privacy/.rss"
         }
     ],
     "tags": {

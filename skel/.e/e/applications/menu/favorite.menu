@@ -7,8 +7,8 @@
   <Layout>
     <Filename>moo_os_installer.desktop</Filename>
     <Filename>urxvtc.desktop</Filename>
-    <Filename>enlightenment_filemanager.desktop</Filename>
     <Filename>kde4-dolphin.desktop</Filename>
+    <Filename>enlightenment_filemanager.desktop</Filename>
     <Filename>sublime_text_3.desktop</Filename>
     <Filename>sublime_text_3_root.desktop</Filename>
     <Filename>qtcreator.desktop</Filename>
@@ -33,8 +33,8 @@
   <Include>
     <Filename>moo_os_installer.desktop</Filename>
     <Filename>urxvtc.desktop</Filename>
-    <Filename>enlightenment_filemanager.desktop</Filename>
     <Filename>kde4-dolphin.desktop</Filename>
+    <Filename>enlightenment_filemanager.desktop</Filename>
     <Filename>sublime_text_3.desktop</Filename>
     <Filename>sublime_text_3_root.desktop</Filename>
     <Filename>qtcreator.desktop</Filename>

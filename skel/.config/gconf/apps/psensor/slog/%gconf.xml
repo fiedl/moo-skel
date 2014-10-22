@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="interval" mtime="1401839977" type="int" value="300"/>
-	<entry name="enabled" mtime="1401839977" type="bool" value="false"/>
-</gconf>

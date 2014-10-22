@@ -12,5 +12,5 @@
   <Param name="keywords" value="{searchTerms}"/>
   <Param name="action" value="do_search"/>
 </Url>
-<SearchForm>https://github.com/search</SearchForm>
+<SearchForm>https://bbs.linuxdistrocommunity.com/search.php</SearchForm>
 </SearchPlugin>

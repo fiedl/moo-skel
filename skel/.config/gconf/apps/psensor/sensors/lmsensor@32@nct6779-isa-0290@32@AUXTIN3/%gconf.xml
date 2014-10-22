@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<gconf>
-	<entry name="position" mtime="1401841289" type="int" value="11"/>
-	<entry name="color" mtime="1401841289" type="string">
-		<stringvalue>#00007fff0000</stringvalue>
-	</entry>
-</gconf>

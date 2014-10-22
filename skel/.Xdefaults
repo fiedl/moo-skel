@@ -76,7 +76,7 @@ URxvt*font: xft:terminus:pixelsize=14:antialias=false
 !URxvt*font: -*-terminus-*-r-*-*-14-*-*-*-*-*-iso10646-*
 !URxvt*font: xft:Envy Code R-10
 URxvt*boldFont: xft:terminus:bold:pixelsize=14:antialias=false
-URxvt*iconFile: /usr/share/icons/Cheser/32x32/apps/terminal.png
+!URxvt*iconFile: terminal
 !URxvt*background: rgba:0000/0000/0000/dddd
 URxvt*background: #0F0F0F
 URxvt*foreground: #d3d3d3
