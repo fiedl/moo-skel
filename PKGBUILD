@@ -1,7 +1,7 @@
 # Maintainer: pdq <pdq@localhost>
 pkgname=moo-skel
 pkgver=0.2
-pkgrel=19
+pkgrel=20
 pkgdesc="mooOS skeleton files and directories."
 arch=(any)
 url="https://github.com/idk/moo-skel.git"

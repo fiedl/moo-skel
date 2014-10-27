@@ -87,12 +87,5 @@
             "url": "https://www.reddit.com/r/privacy/.rss"
         }
     ],
-    "tags": {
-        "maintag:Slashdot": {
-            "collapsed": false
-        },
-        "maintag:r/Linux": {
-            "collapsed": false
-        }
-    }
+    "tags": {}
 }

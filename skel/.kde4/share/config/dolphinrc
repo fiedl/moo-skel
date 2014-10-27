@@ -93,7 +93,6 @@ History=avidemux2_qt4,subl3 %F,sudo subl3 %F,totem %U,cr3 %F,xpdf %f,/usr/bin/at
 Plugins=comicbookthumbnail,cursorthumbnail,desktopthumbnail,directorythumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,westleypreview,windowsexethumbnail,windowsimagethumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
 
 [Search]
-ShowFacetsWidget=true
 What=Content
 
 [SettingsDialog]
@@ -114,9 +113,6 @@ mainToolBar=F9
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
-
-[VersionControl]
-enabledPlugins=Bazaar,Git,Mercurial,Subversion
 
 [ViewPropertiesDialog]
 Height 1080=598
