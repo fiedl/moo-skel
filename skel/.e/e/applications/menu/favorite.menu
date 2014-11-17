@@ -12,6 +12,7 @@
     <Filename>sublime_text_3.desktop</Filename>
     <Filename>sublime_text_3_root.desktop</Filename>
     <Filename>qtcreator.desktop</Filename>
+    <Filename>exo-web-browser.desktop</Filename>
     <Filename>firefox.desktop</Filename>
     <Filename>steam.desktop</Filename>
     <Filename>obs.desktop</Filename>
@@ -29,6 +30,9 @@
     <Filename>system_log.desktop</Filename>
     <Filename>octopi.desktop</Filename>
     <Filename>meld.desktop</Filename>
+    <Filename>firejail-owncloud.desktop</Filename>
+    <Filename>firejail-pglgui.desktop</Filename>
+    <Filename>xpdf.desktop</Filename>
   </Layout>
   <Include>
     <Filename>moo_os_installer.desktop</Filename>
@@ -38,6 +42,7 @@
     <Filename>sublime_text_3.desktop</Filename>
     <Filename>sublime_text_3_root.desktop</Filename>
     <Filename>qtcreator.desktop</Filename>
+    <Filename>exo-web-browser.desktop</Filename>
     <Filename>firefox.desktop</Filename>
     <Filename>steam.desktop</Filename>
     <Filename>obs.desktop</Filename>
@@ -55,5 +60,8 @@
     <Filename>system_log.desktop</Filename>
     <Filename>octopi.desktop</Filename>
     <Filename>meld.desktop</Filename>
+    <Filename>firejail-owncloud.desktop</Filename>
+    <Filename>firejail-pglgui.desktop</Filename>
+    <Filename>xpdf.desktop</Filename>
   </Include>
 </Menu>

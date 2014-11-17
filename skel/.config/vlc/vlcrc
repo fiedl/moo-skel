@@ -3746,7 +3746,7 @@ text-renderer=any
 #sub-file=
 
 # Autodetect subtitle files (boolean)
-#sub-autodetect-file=1
+sub-autodetect-file=0
 
 # Subtitle autodetection fuzziness (integer)
 #sub-autodetect-fuzzy=3
