@@ -65,10 +65,10 @@ Plugin {
   type=launchbar
   Config {
     Button {
-      id=menu://applications/System/firejail-urxvtc.desktop
+      id=menu://applications/System/kde4-dolphin.desktop
     }
     Button {
-      id=menu://applications/System/kde4-dolphin.desktop
+      id=menu://applications/System/firejail-urxvtc.desktop
     }
     Button {
       id=menu://applications/Development/atom.desktop

@@ -1,0 +1,42 @@
+
+'global':
+  'exception-reporting':
+    'userId': ''
+  'release-notes':
+    'viewedVersion': '0.95.0'
+  'welcome':
+    'showOnStartup': false
+  'metrics':
+    'userId': ''
+  'editor':
+    'fontSize': 13
+    'tabLength': 8
+    'scrollPastEnd': true
+    'showIndentGuide': true
+    'fontFamily': 'Envy Code R'
+    'invisibles': {}
+  'core':
+    'themes': [
+      'atom-dark-ui-slim'
+      'monokai'
+    ]
+    'disabledPackages': [
+      'feedback'
+      'metrics'
+      'welcome'
+    ]
+    'projectHome': ''
+  'project-manager':
+    'closeCurrent': true
+'.html.mustache.text':
+  'editor': {}
+'.mustache.source.sql':
+  'editor': {}
+'.c.source ++ *':
+  'editor': {}
+'.hyperlink.text':
+  'editor': {}
+'.gfm.source':
+  'editor': {}
+'.c.source':
+  'editor': {}

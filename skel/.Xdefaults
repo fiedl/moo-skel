@@ -58,7 +58,7 @@ URxvt*urgentOnBell:  true
 *color15:  #ffffff
 
 ! enable clickable links
-URxvt*url-launcher: tor-browser-en
+URxvt*url-launcher: firefox
 URxvt*urlLauncher:  urlLauncher $0
 URxvt*matcher.button: 1
 

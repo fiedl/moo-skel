@@ -4718,7 +4718,7 @@ hotkeys-mousewheel-mode=1
 #key-clear-playlist=Ctrl+w
 
 # Playlist bookmark 1 (string)
-#bookmark1=
+bookmark1=http://r1---sn-ni5f-ttjl.googlevideo.com/videoplayback?ms=au&ratebypass=yes&ipbits=0&initcwndbps=1392500&mv=m&mt=1416804009&expire=1416825692&signature=0429AD1E629A52553CBC8B5951FFB5B2BBAB427C.9B992E3B24EDC266E2761323BEE6C86339FAE6&upn=gF74s082eo8&sparams=id%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Cmime%2Cmm%2Cms%2Cmv%2Cratebypass%2Csource%2Cupn%2Cexpire&mime=video%2Fmp4&mm=31&fexp=900234%2C907259%2C914951%2C924638%2C927622%2C932404%2C938412%2C939100%2C940620%2C943909%2C947209%2C947215%2C948124%2C948527%2C952302%2C952605%2C952901%2C953803%2C953912%2C957103%2C957105%2C957201&id=o-ACxtlqsLgB5brQQHxVUHnw9Zbz1A4me4q99CoRPZD3sA&sver=3&source=youtube&ip=24.79.40.226&key=yt5&itag=22
 
 # Playlist bookmark 2 (string)
 #bookmark2=
