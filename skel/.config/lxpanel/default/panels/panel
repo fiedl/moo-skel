@@ -1,0 +1,182 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=bottom
+  allign=left
+  margin=0
+  widthtype=percent
+  width=100
+  height=26
+  transparent=0
+  tintcolor=#000000
+  alpha=0
+  setdocktype=1
+  setpartialstrut=1
+  usefontcolor=0
+  fontcolor=#ffffff
+  usefontsize=0
+  fontsize=10
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/background.png
+  monitor=1
+  autohide=1
+  heightwhenhidden=1
+  iconsize=24
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=menu
+  Config {
+    image=/usr/share/icons/mooOS_icon.svg
+    system {
+    }
+    separator {
+    }
+    item {
+      command=run
+    }
+    separator {
+    }
+    item {
+      image=gnome-logout
+      command=logout
+    }
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=1
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=menu://applications/System/firejail-urxvtc.desktop
+    }
+    Button {
+      id=menu://applications/System/kde4-dolphin.desktop
+    }
+    Button {
+      id=menu://applications/Development/atom.desktop
+    }
+    Button {
+      id=menu://applications/Development/firejail-sublime_text_3.desktop
+    }
+    Button {
+      id=menu://applications/Development/sublime_text_3_root.desktop
+    }
+    Button {
+      id=menu://applications/Internet/firejail-canto_curses.desktop
+    }
+    Button {
+      id=menu://applications/Internet/mutt_client.desktop
+    }
+    Button {
+      id=menu://applications/Internet/tightvnc.desktop
+    }
+    Button {
+      id=menu://applications/System/wireshark-qt.desktop
+    }
+    Button {
+      id=menu://applications/Games/firejail-steam.desktop
+    }
+    Button {
+      id=menu://applications/Multimedia/firejail-kde4-kdenlive.desktop
+    }
+    Button {
+      id=menu://applications/Multimedia/vlc.desktop
+    }
+    Button {
+      id=menu://applications/Multimedia/firejail-obs.desktop
+    }
+    Button {
+      id=menu://applications/Internet/firejail-firefox.desktop
+    }
+    Button {
+      id=menu://applications/Internet/firejail-tor-browser-en.desktop
+    }
+    Button {
+      id=menu://applications/System/lxtask.desktop
+    }
+    Button {
+      id=menu://applications/Accessories/firejail-pwsafe.desktop
+    }
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
+  type=taskbar
+  expand=1
+  Config {
+    tooltips=0
+    IconsOnly=0
+    AcceptSkipPager=1
+    ShowIconified=1
+    ShowMapped=1
+    ShowAllDesks=0
+    UseMouseWheel=0
+    UseUrgencyHint=1
+    FlatButton=0
+    MaxTaskWidth=150
+    spacing=1
+    SameMonitorOnly=1
+    GroupedTasks=0
+  }
+}
+Plugin {
+  type=tray
+  Config {
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=volumealsa
+  Config {
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=%I:%M %p
+    TooltipFmt=%A %x
+    BoldFont=0
+    IconOnly=0
+    CenterText=0
+  }
+}

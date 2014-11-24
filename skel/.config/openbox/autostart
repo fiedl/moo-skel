@@ -1,0 +1,36 @@
+#
+# These things are run when an Openbox X Session is started.
+# You may place a similar script in $HOME/.config/openbox/autostart
+# to run user-specific things.
+#
+
+# If you want to use GNOME config tools...
+#
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null 2>&1; then
+#  gnome-settings-daemon &
+#fi
+
+## Start devilspie2
+if [[ "$USER" == "pdq" ]]; then
+	kill $(pidof devilspie2)
+	(sleep 1s && devilspie2) &
+fi
+## Disable DPMS
+xset -dpms; xset s off &
+
+## Compositor
+[ -z "$(pidof compton)" ] && kill $(pidof compton)
+compton -b &
+
+## Background
+[ -z "$(pidof nitrogen)" ] && kill $(pidof nitrogen)
+(sleep 1s && nitrogen --restore) &
+
+## Panel
+[ -z "$(pidof lxpanel)" ] && kill $(pidof lxpanel)
+(sleep 1s && lxpanel) &
+
+## Welcome sound
+sleep 1s && mplayer "${HOME}/.config/moo-sounds/sounds/voice-welcome.ogg" -volume 60 > /dev/null 2>&1
