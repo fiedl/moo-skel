@@ -65,6 +65,9 @@ Plugin {
   type=launchbar
   Config {
     Button {
+      id=menu://applications/Other/moo_os_installer.desktop
+    }
+    Button {
       id=menu://applications/System/kde4-dolphin.desktop
     }
     Button {
@@ -80,6 +83,9 @@ Plugin {
       id=menu://applications/Development/sublime_text_3_root.desktop
     }
     Button {
+      id=menu://applications/Development/qtcreator.desktop
+    }
+    Button {
       id=menu://applications/Internet/firejail-canto_curses.desktop
     }
     Button {
@@ -92,10 +98,13 @@ Plugin {
       id=menu://applications/System/wireshark-qt.desktop
     }
     Button {
-      id=menu://applications/Games/firejail-steam.desktop
+      id=menu://applications/System/etherape.desktop
     }
     Button {
       id=menu://applications/Multimedia/firejail-kde4-kdenlive.desktop
+    }
+    Button {
+      id=menu://applications/Internet/steam.desktop
     }
     Button {
       id=menu://applications/Multimedia/vlc.desktop

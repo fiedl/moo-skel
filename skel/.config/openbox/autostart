@@ -29,6 +29,8 @@ compton -b &
 (sleep 1s && nitrogen --restore) &
 
 ## Panel
+file=`find ~/.cache/menus -name "*" -type f`
+rm ${file}
 [ -z "$(pidof lxpanel)" ] && kill $(pidof lxpanel)
 (sleep 1s && lxpanel) &
 
