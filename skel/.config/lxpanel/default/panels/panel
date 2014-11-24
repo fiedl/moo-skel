@@ -83,7 +83,7 @@ Plugin {
       id=menu://applications/Internet/firejail-canto_curses.desktop
     }
     Button {
-      id=menu://applications/Internet/mutt_client.desktop
+      id=menu://applications/Internet/firejail-mutt_client.desktop
     }
     Button {
       id=menu://applications/Internet/tightvnc.desktop
@@ -102,6 +102,9 @@ Plugin {
     }
     Button {
       id=menu://applications/Multimedia/firejail-obs.desktop
+    }
+    Button {
+      id=menu://applications/Internet/exo-web-browser.desktop
     }
     Button {
       id=menu://applications/Internet/firejail-firefox.desktop
