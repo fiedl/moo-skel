@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Youtube Viewer [firejail]
+Comment=Deskop file for youtube-viewer - mooOS
+Exec=urxvtc -name "youtube" -title "youtube" -e firejail youtube-viewer --prefer-https --use-colors --quiet -7 -S -C --video-player="vlc"
+Icon=vlc
+Terminal=false
+Type=Application
+Categories=AudioVideo;Player;Recorder;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=urxvt (tabbed) [firejail]
+Comment=An unicode capable and tabbed rxvt clone
+Exec=firejail urxvt-tabbed
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=System;TerminalEmulator;

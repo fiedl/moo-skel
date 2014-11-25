@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=GPU Stats [firejail]
+Comment=Deskop file for nvidia gpu stats - mooOS
+Exec=urxvtc -name "GPU" -title "GPU" -e firejail nvidia-smi -l 5 -q -d "MEMORY,TEMPERATURE"
+Icon=nvidia-settings
+Terminal=false
+Type=Application
+Categories=Utility;Application;

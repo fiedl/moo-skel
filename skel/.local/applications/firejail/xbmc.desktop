@@ -1,0 +1,22 @@
+[Desktop Entry]
+Version=1.0
+Name=XBMC Media Center [firejail]
+GenericName=Media Center
+Comment=Manage and view your media 
+Exec=firejail xbmc
+Icon=xbmc
+Terminal=false
+Type=Application
+Categories=AudioVideo;Video;Player;TV;
+
+Actions=Fullscreen;Standalone;
+
+[Desktop Action Fullscreen]
+Name=Open in fullscreen
+Exec=firejail xbmc -fs
+OnlyShowIn=Unity;
+
+[Desktop Action Standalone]
+Name=Open in standalone mode
+Exec=firejail xbmc --standalone
+OnlyShowIn=Unity;

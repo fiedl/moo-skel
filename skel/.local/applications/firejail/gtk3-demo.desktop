@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=GTK+ Demo [firejail]
+Comment=GTK+ code examples and demonstrations
+Exec=firejail gtk3-demo
+Icon=gtk3-demo
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;
+NoDisplay=true

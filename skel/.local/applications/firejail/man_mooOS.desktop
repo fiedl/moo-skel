@@ -1,0 +1,11 @@
+[Desktop Entry]
+Hidden=false
+Exec=urxvtc -title "man mooOS" -name "man mooOS" -e firejail man mooOS
+Icon=application-default-icon
+Type=Application
+Version=1.0
+StartupNotify=false
+GenericName[en_US]=
+Comment=
+Terminal=false
+Name=man mooOS [firejail]

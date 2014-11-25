@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=System Log [firejail]
+Comment=Deskop file for journalctl log - mooOS
+Exec=urxvtc -title "Logs" -name "Logs" -e firejail sudo journalctl -f
+Icon=logview
+Terminal=false
+Type=Application
+Categories=Other;Terminals

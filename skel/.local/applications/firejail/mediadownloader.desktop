@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=mediadownloader [firejail]
+GenericName=Google Image and YouTube search, view and download tool
+X-GNOME-FullName=mediadownloader
+Comment=Google Image and YouTube search, view and download tool
+Categories=Graphics;Qt;Network;
+Exec=firejail /usr/bin/mediadownloader
+X-KDE-StartupNotify=true
+StartupNotify=true
+Icon=mediadownloader
+Terminal=false
+Type=Application

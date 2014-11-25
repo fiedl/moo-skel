@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zandronum (Doom) [firejail]
+Comment=Doom client
+Exec=firejail zandronum
+Icon=zotero
+Terminal=false
+Categories=Game

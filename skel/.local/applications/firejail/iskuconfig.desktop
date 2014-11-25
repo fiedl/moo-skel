@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Isku config [firejail]
+Name[de]=Isku Konfiguration [firejail]
+Comment=Modify Roccat Isku device settings
+Comment[de]=Roccat Isku Einstellungen ändern
+Type=Application
+Exec=firejail iskuconfig
+Icon=roccat
+Terminal=false
+Categories=Settings;HardwareSettings;GTK;

@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=urxvtc -name "mooOS installer" -title "mooOS installer" -e firejail sudo moo_installer
+GenericName[en_US]=
+GenericName=
+Hidden=false
+Icon=mooOS.png
+MimeType=
+Name[en_US]=mooOS installer [firejail]
+Name=mooOS installer [firejail]
+NoDisplay=false
+Path=
+StartupNotify=false
+StartupWMClass=moo_installer
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

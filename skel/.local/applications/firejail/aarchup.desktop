@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Update Notifier [firejail]
+Comment=Deskop file for aarchup - mooOS
+Exec=firejail /usr/bin/aarchup --loop-time 60 --aur --icon --icon /usr/share/moo-tools/mooOS.png &
+Icon=system-software-update
+Terminal=false
+Type=Application
+Categories=Other;Terminals

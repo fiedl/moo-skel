@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=CPUS Temp [firejail]
+Comment=Deskop file for CPUS Temp - mooOS
+Exec=urxvtc -name "CPUS" -title "CPUS" -e firejail ~/bin/cpus_temp
+Icon=gtk-info
+Terminal=false
+Type=Application
+Categories=Utility;Application;

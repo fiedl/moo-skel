@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Icon Browser [firejail]
+Comment=An application that shows themed icons
+Exec=firejail gtk3-icon-browser
+Icon=gtk3-icon-browser
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;
+NoDisplay=true

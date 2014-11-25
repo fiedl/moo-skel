@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Gkrellm System Monitor [firejail]
+Comment=Deskop file for gkrellm
+Exec=firejail gkrellm
+Icon=applications-system
+Terminal=false
+Type=Application
+Categories=Utility;Application;

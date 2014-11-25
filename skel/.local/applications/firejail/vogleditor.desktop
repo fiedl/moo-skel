@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=vogleditor (Qt) [firejail]
+Comment=OpenGL Debugger
+Exec=firejail vogleditor %f
+Icon=steam
+Terminal=false
+Type=Application
+Categories=Development;
+StartupNotify=true

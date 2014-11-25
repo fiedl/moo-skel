@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Startup Hint [firejail]
+Comment=Desktop file for startup hint- mooOS
+Exec=firejail startup_hint
+Icon=preferences-system-notifications
+Terminal=false
+Type=Application
+Categories=Other;

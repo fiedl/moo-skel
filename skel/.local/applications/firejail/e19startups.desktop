@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Enlightenment startup daemons etc [firejail]
+Comment=Desktop file for startup applications - mooOS
+Exec=firejail e19_startups
+Icon=mooOS.png
+Terminal=false
+Type=Application
+Categories=Other;Terminals

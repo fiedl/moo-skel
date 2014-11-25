@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Data Display Debugger [firejail]
+Comment=Graphical debugger frontend
+Comment[fr]=Interface graphique pour débogueur
+Exec=firejail ddd
+Terminal=false
+Type=Application
+Icon=ddd
+Categories=Development;

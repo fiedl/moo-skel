@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=TightVNC Viewer [firejail]
+Comment=VNC server and viewer
+Exec=firejail vncviewer
+Icon=tightvnc
+Terminal=false
+StartupNotify=false
+Categories=Application;Network;

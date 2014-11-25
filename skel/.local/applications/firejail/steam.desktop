@@ -1,0 +1,107 @@
+[Desktop Entry]
+Name=Steam [firejail]
+Comment=Application for managing and playing games on Steam
+Exec=firejail /usr/bin/steam %U
+Icon=steam
+Terminal=false
+Type=Application
+Categories=Network;FileTransfer;Game;
+MimeType=x-scheme-handler/steam;
+Actions=Store;Community;Library;Servers;Screenshots;News;Settings;BigPicture;Friends;
+
+[Desktop Action Store]
+Name=Store [firejail]
+Name[de]=Shop [firejail]
+Name[es]=Tienda [firejail]
+Name[fr]=Magasin [firejail]
+Name[it]=Negozio [firejail]
+Name[pt]=Loja [firejail]
+Name[ru]=Магазин [firejail]
+Name[zh_CN]=商店 [firejail]
+Name[zh_TW]=商店 [firejail]
+Exec=firejail steam steam://store
+
+[Desktop Action Community]
+Name=Community [firejail]
+Name[es]=Comunidad [firejail]
+Name[fr]=Communauté [firejail]
+Name[it]=Comunità [firejail]
+Name[pt]=Comunidade [firejail]
+Name[ru]=Сообщество [firejail]
+Name[zh_CN]=社区 [firejail]
+Name[zh_TW]=社群 [firejail]
+Exec=firejail steam steam://url/SteamIDControlPage
+
+[Desktop Action Library]
+Name=Library [firejail]
+Name[de]=Bibliothek [firejail]
+Name[es]=Biblioteca [firejail]
+Name[fr]=Bibliothèque [firejail]
+Name[it]=Libreria [firejail]
+Name[pt]=Biblioteca [firejail]
+Name[ru]=Библиотека [firejail]
+Name[zh_CN]=库 [firejail]
+Name[zh_TW]=遊戲庫 [firejail]
+Exec=firejail steam steam://open/games
+
+[Desktop Action Servers]
+Name=Servers [firejail]
+Name[de]=Server [firejail]
+Name[es]=Servidores [firejail]
+Name[fr]=Serveurs [firejail]
+Name[it]=Server [firejail]
+Name[pt]=Servidores [firejail]
+Name[ru]=Серверы [firejail]
+Name[zh_CN]=服务器 [firejail]
+Name[zh_TW]=伺服器 [firejail]
+Exec=firejail steam steam://open/servers
+
+[Desktop Action Screenshots]
+Name=Screenshots [firejail]
+Name[es]=Capturas [firejail]
+Name[fr]=Captures d'écran [firejail]
+Name[it]=Screenshot [firejail]
+Name[ru]=Скриншоты [firejail]
+Name[zh_CN]=截图 [firejail]
+Name[zh_TW]=螢幕擷圖 [firejail]
+Exec=firejail steam steam://open/screenshots
+
+[Desktop Action News]
+Name=News [firejail]
+Name[de]=Neuigkeiten [firejail]
+Name[es]=Noticias [firejail]
+Name[fr]=Actualités [firejail]
+Name[it]=Notizie [firejail]
+Name[pt]=Notícias [firejail]
+Name[ru]=Новости [firejail]
+Name[zh_CN]=新闻 [firejail]
+Name[zh_TW]=新聞 [firejail]
+Exec=firejail steam steam://open/news
+
+[Desktop Action Settings]
+Name=Settings [firejail]
+Name[de]=Einstellungen [firejail]
+Name[es]=Parámetros [firejail]
+Name[fr]=Paramètres [firejail]
+Name[it]=Impostazioni [firejail]
+Name[pt]=Configurações [firejail]
+Name[ru]=Настройки [firejail]
+Name[zh_CN]=设置 [firejail]
+Name[zh_TW]=設定 [firejail]
+Exec=firejail steam steam://open/settings
+
+[Desktop Action BigPicture]
+Name=Big Picture [firejail]
+Exec=firejail steam steam://open/bigpicture
+
+[Desktop Action Friends]
+Name=Friends [firejail]
+Name[de]=Freunde [firejail]
+Name[es]=Amigos [firejail]
+Name[fr]=Amis [firejail]
+Name[it]=Amici [firejail]
+Name[pt]=Amigos [firejail]
+Name[ru]=Друзья [firejail]
+Name[zh_CN]=好友 [firejail]
+Name[zh_TW]=好友 [firejail]
+Exec=firejail steam steam://open/friends

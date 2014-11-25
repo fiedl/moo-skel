@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Xpdf [firejail]
+Comment=Views Adobe PDF (acrobat) files
+Exec=firejail xpdf %f
+Terminal=false
+Type=Application
+Icon=xpdf
+Categories=Office;
+MimeType=application/pdf;

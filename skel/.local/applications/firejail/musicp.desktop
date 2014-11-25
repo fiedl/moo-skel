@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Music On Console Player [firejail]
+Comment=Deskop file for music on console player - mooOS
+Exec=urxvtc -name "MOCP" -title MOCP -e firejail mocp
+Icon=rhythmbox
+Terminal=false
+Type=Application
+Categories=AudioVideo;Player;Recorder;

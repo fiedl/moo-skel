@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=pglgui [firejail]
+Type=Application
+Exec=firejail pglgui
+Icon=pglgui
+Comment=Graphical User Interface of PeerGuardian Linux
+StartupNotify=true
+Terminal=false
+Categories=Network;

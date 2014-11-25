@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SimpleScreenRecorder [firejail]
+Comment=A feature-rich screen recorder that supports X11 and OpenGL
+Icon=simplescreenrecorder
+Exec=firejail simplescreenrecorder --logfile
+Terminal=false
+Categories=AudioVideo;Video;Recorder;Qt;

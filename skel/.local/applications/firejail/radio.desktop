@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Radio [firejail]
+Comment=Deskop file for pyradio - mooOS
+Exec=urxvtc -title "Radio" -name "Radio" -e firejail pyradio
+Icon=radiotray
+Terminal=false
+Type=Application
+Categories=AudioVideo;Player;Recorder;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=CPU Frequency [firejail]
+Comment=Deskop file for CPU Frequency - mooOS
+Exec=urxvtc -name "CPU Freq" -title "CPU Freq" -e firejail cpu_freq
+Icon=gtk-info
+Terminal=false
+Type=Application
+Categories=Utility;Application;

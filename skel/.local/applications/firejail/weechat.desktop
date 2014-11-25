@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Weechat [firejail]
+Comment=Deskop file for weechat-curses - mooOS
+Exec=urxvtc -title "top1" -name "top1" -e firejail weechat-curses
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Network;

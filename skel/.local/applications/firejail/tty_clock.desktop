@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=TTY Clock [firejail]
+Comment=Deskop file for TTY Clock - mooOS
+Exec=urxvtc -title "Clock" -name "Clock" -e firejail tty-clock -tc
+Icon=preferences-system-time
+Terminal=false
+Type=Application
+Categories=Utility;Application;

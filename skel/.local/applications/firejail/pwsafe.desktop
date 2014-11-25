@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PasswordSafe [firejail]
+Comment=Manage passwords
+Exec=firejail pwsafe %f
+Icon=pwsafe
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Utility;Security;

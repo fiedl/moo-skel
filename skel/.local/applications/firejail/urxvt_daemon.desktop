@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=urxvt daemon [firejail]
+Comment=urxvt daemon - mooOS
+Exec=firejail urxvtd -q -o -f
+Icon=terminal
+Terminal=false
+Type=Application
+Categories=Other;Terminals

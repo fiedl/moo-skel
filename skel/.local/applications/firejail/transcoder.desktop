@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Transcoder [firejail]
+Comment=Simple video converter for linux
+Icon=/usr/share/Transcoder/transcoder.png
+Exec=firejail Transcoder
+Encoding=UTF-8
+Type=Application
+Categories=AudioVideo
