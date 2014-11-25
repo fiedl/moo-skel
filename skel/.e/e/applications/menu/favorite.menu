@@ -9,59 +9,63 @@
     <Filename>urxvtc.desktop</Filename>
     <Filename>kde4-dolphin.desktop</Filename>
     <Filename>enlightenment_filemanager.desktop</Filename>
-    <Filename>sublime_text_3.desktop</Filename>
-    <Filename>sublime_text_3_root.desktop</Filename>
+    <Filename>atom.desktop</Filename>
+    <Filename>atom_root.desktop</Filename>
     <Filename>qtcreator.desktop</Filename>
-    <Filename>exo-web-browser.desktop</Filename>
-    <Filename>firefox.desktop</Filename>
-    <Filename>steam.desktop</Filename>
-    <Filename>obs.desktop</Filename>
-    <Filename>keepassx.desktop</Filename>
-    <Filename>lxtask.desktop</Filename>
-    <Filename>vlc.desktop</Filename>
-    <Filename>filezilla.desktop</Filename>
-    <Filename>canto_curses.desktop</Filename>
-    <Filename>kde4-kdenlive.desktop</Filename>
-    <Filename>musicp.desktop</Filename>
-    <Filename>mutt_client.desktop</Filename>
-    <Filename>gimp.desktop</Filename>
-    <Filename>mumble.desktop</Filename>
-    <Filename>simplescreenrecorder.desktop</Filename>
-    <Filename>system_log.desktop</Filename>
-    <Filename>octopi.desktop</Filename>
     <Filename>meld.desktop</Filename>
-    <Filename>firejail-owncloud.desktop</Filename>
-    <Filename>firejail-pglgui.desktop</Filename>
+    <Filename>gimp.desktop</Filename>
+    <Filename>exo-web-browser.desktop</Filename>
+    <Filename>firejail-tor-browser-en.desktop</Filename>
     <Filename>xpdf.desktop</Filename>
+    <Filename>mutt_client.desktop</Filename>
+    <Filename>firejail-canto_curses.desktop</Filename>
+    <Filename>firejail-owncloud.desktop</Filename>
+    <Filename>octopi.desktop</Filename>
+    <Filename>filezilla.desktop</Filename>
+    <Filename>firejail-tightvnc.desktop</Filename>
+    <Filename>wireshark-qt.desktop</Filename>
+    <Filename>system_log.desktop</Filename>
+    <Filename>steam.desktop</Filename>
+    <Filename>musicp.desktop</Filename>
+    <Filename>vlc.desktop</Filename>
+    <Filename>firejail-kde4-kdenlive.desktop</Filename>
+    <Filename>simplescreenrecorder.desktop</Filename>
+    <Filename>obs.desktop</Filename>
+    <Filename>mumble.desktop</Filename>
+    <Filename>virtualbox.desktop</Filename>
+    <Filename>pwsafe.desktop</Filename>
+    <Filename>lxtask.desktop</Filename>
   </Layout>
   <Include>
     <Filename>moo_os_installer.desktop</Filename>
     <Filename>urxvtc.desktop</Filename>
     <Filename>kde4-dolphin.desktop</Filename>
     <Filename>enlightenment_filemanager.desktop</Filename>
-    <Filename>sublime_text_3.desktop</Filename>
-    <Filename>sublime_text_3_root.desktop</Filename>
+    <Filename>atom.desktop</Filename>
+    <Filename>atom_root.desktop</Filename>
     <Filename>qtcreator.desktop</Filename>
-    <Filename>exo-web-browser.desktop</Filename>
-    <Filename>firefox.desktop</Filename>
-    <Filename>steam.desktop</Filename>
-    <Filename>obs.desktop</Filename>
-    <Filename>keepassx.desktop</Filename>
-    <Filename>lxtask.desktop</Filename>
-    <Filename>vlc.desktop</Filename>
-    <Filename>filezilla.desktop</Filename>
-    <Filename>canto_curses.desktop</Filename>
-    <Filename>kde4-kdenlive.desktop</Filename>
-    <Filename>musicp.desktop</Filename>
-    <Filename>mutt_client.desktop</Filename>
-    <Filename>gimp.desktop</Filename>
-    <Filename>mumble.desktop</Filename>
-    <Filename>simplescreenrecorder.desktop</Filename>
-    <Filename>system_log.desktop</Filename>
-    <Filename>octopi.desktop</Filename>
     <Filename>meld.desktop</Filename>
-    <Filename>firejail-owncloud.desktop</Filename>
-    <Filename>firejail-pglgui.desktop</Filename>
+    <Filename>gimp.desktop</Filename>
+    <Filename>exo-web-browser.desktop</Filename>
+    <Filename>firejail-tor-browser-en.desktop</Filename>
     <Filename>xpdf.desktop</Filename>
+    <Filename>mutt_client.desktop</Filename>
+    <Filename>firejail-canto_curses.desktop</Filename>
+    <Filename>firejail-owncloud.desktop</Filename>
+    <Filename>octopi.desktop</Filename>
+    <Filename>filezilla.desktop</Filename>
+    <Filename>firejail-tightvnc.desktop</Filename>
+    <Filename>wireshark-qt.desktop</Filename>
+    <Filename>system_log.desktop</Filename>
+    <Filename>steam.desktop</Filename>
+    <Filename>musicp.desktop</Filename>
+    <Filename>vlc.desktop</Filename>
+    <Filename>firejail-kde4-kdenlive.desktop</Filename>
+    <Filename>simplescreenrecorder.desktop</Filename>
+    <Filename>obs.desktop</Filename>
+    <Filename>mumble.desktop</Filename>
+    <Filename>virtualbox.desktop</Filename>
+    <Filename>pwsafe.desktop</Filename>
+    <Filename>lxtask.desktop</Filename>
   </Include>
 </Menu>
