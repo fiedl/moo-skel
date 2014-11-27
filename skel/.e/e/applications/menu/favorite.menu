@@ -10,7 +10,6 @@
     <Filename>kde4-dolphin.desktop</Filename>
     <Filename>enlightenment_filemanager.desktop</Filename>
     <Filename>atom.desktop</Filename>
-    <Filename>atom_root.desktop</Filename>
     <Filename>qtcreator.desktop</Filename>
     <Filename>meld.desktop</Filename>
     <Filename>gimp.desktop</Filename>
@@ -35,6 +34,7 @@
     <Filename>virtualbox.desktop</Filename>
     <Filename>pwsafe.desktop</Filename>
     <Filename>lxtask.desktop</Filename>
+    <Filename>sublime_text_3.desktop</Filename>
   </Layout>
   <Include>
     <Filename>moo_os_installer.desktop</Filename>
@@ -42,7 +42,6 @@
     <Filename>kde4-dolphin.desktop</Filename>
     <Filename>enlightenment_filemanager.desktop</Filename>
     <Filename>atom.desktop</Filename>
-    <Filename>atom_root.desktop</Filename>
     <Filename>qtcreator.desktop</Filename>
     <Filename>meld.desktop</Filename>
     <Filename>gimp.desktop</Filename>
@@ -67,5 +66,6 @@
     <Filename>virtualbox.desktop</Filename>
     <Filename>pwsafe.desktop</Filename>
     <Filename>lxtask.desktop</Filename>
+    <Filename>sublime_text_3.desktop</Filename>
   </Include>
 </Menu>

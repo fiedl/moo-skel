@@ -3,7 +3,6 @@ urxvtc.desktop
 kde4-dolphin.desktop
 enlightenment_filemanager.desktop
 atom.desktop
-atom_root.desktop
 qtcreator.desktop
 mutt_client.desktop
 firejail-canto_curses.desktop
@@ -17,3 +16,4 @@ exo-web-browser.desktop
 firejail-tor-browser-en.desktop
 pwsafe.desktop
 lxtask.desktop
+sublime_text_3.desktop
