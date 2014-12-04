@@ -4,7 +4,7 @@
 -- if devilspie2 is run using the --debug option
 debug_print("Window Name: " .. get_window_name());
 debug_print("Window Class: " .. get_window_class());
-debug_print("Window Class instance: " .. get_class_instance_name());
+-- debug_print("Window Class instance: " .. get_class_instance_name());
 debug_print("Application name: " .. get_application_name());
 debug_print("Window geometry: " .. get_window_client_geometry());
 -- debug_print("Screen geometry: " .. get_screen_geometry());
@@ -173,6 +173,12 @@ end
 if (get_window_class()=="Kdenlive" and (get_window_name()=="&Effect List" or get_window_name()=="&Effect List")) then
 	undecorate_window();
 	set_window_geometry2(0,1650,522,311);
+end
+
+-- Wasteland titlebar remove
+if (get_window_name()=="Wasteland2" and get_class_instance_name()==nil) then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
 end
 
 -- reference manual http://www.gusnan.se/devilspie2/manual.php

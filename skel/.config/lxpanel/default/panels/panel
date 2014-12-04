@@ -65,9 +65,6 @@ Plugin {
   type=launchbar
   Config {
     Button {
-      id=menu://applications/Other/moo_os_installer.desktop
-    }
-    Button {
       id=menu://applications/System/kde4-dolphin.desktop
     }
     Button {
