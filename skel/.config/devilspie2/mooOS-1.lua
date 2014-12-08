@@ -181,6 +181,11 @@ if (get_window_name()=="Wasteland2" and get_class_instance_name()==nil) then
 	set_window_geometry2(1920,900,1920,1080);
 end
 
+-- No More Room In Hell titlebar remove
+if (get_class_instance_name()=="hl2_linux") then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
+end
 -- reference manual http://www.gusnan.se/devilspie2/manual.php
 
 -- End
