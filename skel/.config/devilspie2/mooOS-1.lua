@@ -92,6 +92,11 @@ if (get_window_class()=="URxvt" and get_class_instance_name()=="Mail") then
 	set_window_geometry(1920,1400,650,266);
 end
 
+-- Make calendar start with decoration
+if (get_window_class()=="URxvt" and get_class_instance_name()=="Calendar") then
+	decorate_window();
+end
+
 -- Make ssh LAN or 3rd terminal instance start where it belongs
 if (get_window_class()=="URxvt" and (get_class_instance_name()=="TermTerm" or get_class_instance_name()=="ssh 192.168.0.10")) then
 	undecorate_window();
@@ -128,7 +133,7 @@ end
 
 -- Hide PasswordSafe from tasklist, pager
 if (get_window_class()=="Pwsafe" and get_class_instance_name()=="pwsafe") then
-	-- set_skip_tasklist(true)
+	set_skip_tasklist(false)
 	set_skip_pager(true)
 end
 
@@ -186,6 +191,13 @@ if (get_class_instance_name()=="hl2_linux") then
 	undecorate_window();
 	set_window_geometry2(1920,900,1920,1080);
 end
+
+-- CS: GO titlebar remove
+if (get_class_instance_name()=="csgo_linux") then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
+end
+
 -- reference manual http://www.gusnan.se/devilspie2/manual.php
 
 -- End

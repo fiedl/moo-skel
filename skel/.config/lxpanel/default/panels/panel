@@ -83,10 +83,7 @@ Plugin {
       id=menu://applications/Development/qtcreator.desktop
     }
     Button {
-      id=menu://applications/Internet/firejail-canto_curses.desktop
-    }
-    Button {
-      id=menu://applications/Internet/firejail-mutt_client.desktop
+      id=menu://applications/Internet/canto_curses.desktop
     }
     Button {
       id=menu://applications/Internet/tightvnc.desktop
