@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+
+<JWM>
+
+    <!-- The root menu. -->
+    <RootMenu onroot="12">
+        <Program icon="terminal.png" label="Terminal">urxvtc</Program>
+        <Separator/>
+        <Program icon="file-manager.png" label="File Manager">dolphin</Program>
+        <Separator/>
+        <Menu icon="text-editor.png" label="Programming and Development">
+            <Program icon="atom.png" label="Atom Editor">atom</Program>
+            <Program icon="meld.png" label="Meld Diff Editor">meld</Program>
+            <Program icon="sublime-text.png" label="Sublime Editor">subl3</Program>
+            <Program icon="sublime-text.png" label="Sudo Sublime Editor">sudo subl3</Program>
+            <Program icon="qtcreator.png" label="Qt Creator">qtcreator</Program>
+            <Program icon="gcolor2.png" label="Gcolor2 Picker">gcolor2</Program>
+        </Menu>
+
+        <Menu icon="steam.png" label="Games">
+            <Program icon="steam.png" label="Steam">SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS=0 steam --console</Program>
+            <Program icon="xonotic.png" label="Xonotic">xonotic</Program>
+        </Menu>
+
+        <Menu icon="checkbox.png" label="CLI Utilities">
+            <Program icon="fonts.png" label="Fonts">xfontsel</Program>
+            <Program icon="menu-editor.png" label="Window Properties">xprop | xmessage -file -</Program>
+        </Menu>
+        <Menu icon="addressbook.png" label="GUI Utilities">
+            <Program icon="gimp.png" label="Gimp">gimp</Program>
+            <Program icon="pwsafe.png" label="Password Safe Manager">pwsafe</Program>
+            <Program icon="preferences-desktop-wallpaper.png" label="Wallpaper Settings">nitrogen</Program>
+            <Program icon="gnome-system-monitor.png" label="Task Manager">lxtask</Program>
+        </Menu>
+        <Menu icon="gnome-nettool.png" label="Networking and Internet">
+            <Program icon="liferea.png" label="RSS Syndication">canto-curses</Program>
+            <Program icon="evolution.png" label="Mutt Email">mutt</Program>
+            <Program icon="filezilla.png" label="Filezilla FTP Client">filezilla -s</Program>
+            <Program icon="tightvnc.png" label="TightVNC Viewer">vncviewer</Program>
+            <Program icon="tor-browser-en.png" label="Tor Browser">tor-browser-en</Program>
+            <Program icon="web-browser.png" label="Firefox Browser">firefox</Program>
+            <Program icon="firefox.png" label="Firefox Profile">firefox --profilemanager</Program>
+            <Program icon="firefox.png" label="Transmission Torrent Client">transmission-gtk</Program>
+        </Menu>
+        <Menu icon="preferences-system-firewall.png" label="Network Security">
+            <Program icon="etherape.png" label="Etherape Network Analyzer">sudo etherape</Program>
+            <Program icon="wireshark.png" label="Wireshark Qt">wireshark-qt</Program>
+        </Menu>
+        <Menu icon="mplayer.png" label="Video, Audio and Images">
+            <Program icon="mplayer.png" label="Music On Console Player">mocp</Program>
+            <Program icon="kdenlive.png" label="Kdenlive Video Editor">kdenlive</Program>
+            <Program icon="vlc.png" label="VLC Video Player">vlc</Program>
+            <Program icon="xbmc.png" label="XBMC">xbmc</Program>
+            <Program icon="obs.png" label="Open Broadcasting Studio">obs</Program>
+        </Menu>
+        <Separator/>
+        <Menu icon="window-manager.png" label="Window Manager">
+            <Program icon="window-manager.png" label="Reload compositor, devilspie2, wallpapers">wmreload</Program>
+            <Program icon="text-editor.png" label="Edit JWM config">atom -n ~/.jwmrc</Program>
+            <Restart icon="window-manager.png" label="Reload JWM"/>
+            <Exit icon="window-manager.png" label="Exit JWM" confirm="true"/>
+        </Menu>
+        <Separator/>
+        <Menu icon="gnome-session.png" label="System">
+            <Program icon="system-suspend.png" label="Lock System">physlock</Program>
+            <Program icon="system-restart.png" label="Restart System">systemctl reboot</Program>
+            <Program icon="system-shut-down.png" label="Poweroff System">systemctl poweroff</Program>
+        </Menu>
+
+    </RootMenu>
+
+    <!-- startup applications -->
+    <StartupCommand>nitrogen --restore</StartupCommand>
+    <StartupCommand>volumeicon</StartupCommand>
+    <StartupCommand>synapse</StartupCommand>
+    <StartupCommand>devilspie2_reload</StartupCommand>
+    <StartupCommand>compositor_reload</StartupCommand>
+
+    <!-- Options for program groups. -->
+    <Group>
+        <Class>Pidgin</Class>
+        <Option>sticky</Option>
+    </Group>
+    <Group>
+        <Name>xterm</Name>
+        <Option>vmax</Option>
+        <Option>icon:terminal.png</Option>
+    </Group>
+    <Group>
+        <Name>xedit</Name>
+        <Option>icon:editor.png</Option>
+    </Group>
+    <Group>
+        <Name>xclock</Name>
+        <Option>desktop:2</Option>
+    </Group>
+    <Group>
+        <Class>URxvt</Class>
+        <Class>Steam</Class>
+        <Option>nolist</Option>
+    </Group>
+
+    <!-- Tray at the left display on bottom orientation. (2nd display) -->
+    <!-- <Tray x="0" y="-1" height="30" autohide="false">
+
+        <TrayButton label="Display 1">root:1</TrayButton>
+
+        <Pager labeled="true"/>
+
+        <TrayButton popup="Mumble" icon="podcast.png">exec:mumble</TrayButton>
+        <TrayButton popup="Steam" icon="steam.png">exec:steam</TrayButton>
+
+        <TaskList maxwidth="200"/>
+
+        <Clock format="%a. %b %d %l:%M %p">urxvtc -name "Calendar" -title "Calendar" -hold -e pal</Clock>
+
+    </Tray> -->
+
+    <!-- Tray at the right display on bottom orientation. (3rd display) -->
+    <!-- <Tray valign="top" x="2130" y="-1981" height="30" autohide="true">
+
+        <TrayButton label="Display 2">root:1</TrayButton>
+
+        <TrayButton popup="Alarm Clock" icon="clock.png">exec:alarm-clock</TrayButton>
+
+        <TrayButton popup="VLC Player" icon="vlc.png">exec:vlc</TrayButton>
+
+        <TaskList maxwidth="200"/>
+
+    </Tray> -->
+
+    <!-- Tray at the top display on top orientation. (1st display) -->
+    <!-- <Tray x="1921" y="-1" height="28" autohide="true" border="0">
+
+        <TrayButton label="Display 3">root:1</TrayButton>
+
+        <TrayButton popup="mooOS Installer" icon="mooOS.png">exec:urxvtc -name "mooOS installer" -title "mooOS installer" -e sudo moo_installer</TrayButton>
+
+        <TrayButton popup="URxvt Terminal" icon="terminal.png">exec:urxvtc</TrayButton>
+        <TrayButton popup="File Manager" icon="file-manager.png">exec:dolphin</TrayButton>
+        <TrayButton popup="Atome Editor" icon="atom.png">exec:atom</TrayButton>
+        <TrayButton popup="Sublime Editor" icon="sublime-text.png">exec:subl3</TrayButton>
+        <TrayButton popup="sudo Sublime Editor" icon="sublime-text.png">exec:sudo subl3</TrayButton>
+        <TrayButton popup="GIMP" icon="gimp.png">exec:gimp</TrayButton>
+        <TrayButton popup="Firefox" icon="firefox.png">exec:firefox --profilemanager</TrayButton>
+        <TrayButton popup="Tor Browser" icon="tor-browser-en.png">exec:tor-browser-en</TrayButton>
+        <TrayButton popup="Password Safe" icon="pwsafe.png">exec:pwsafe</TrayButton>
+        <TrayButton popup="Task Manager" icon="gnome-system-monitor.png">exec:lxtask</TrayButton>
+
+        <TaskList maxwidth="200"/>
+
+        <Dock/>
+
+        <Clock format="%a. %b %d %l:%M %p">urxvtc -name "Calendar" -title "Calendar" -hold -e pal</Clock>
+    </Tray> -->
+
+    <!-- mooOS single display tray -->
+    <Tray x="0" y="-1" height="28" autohide="true" border="0">
+
+        <TrayButton label="moo">root:1</TrayButton>
+
+        <TrayButton popup="mooOS Installer" icon="mooOS.png">exec:urxvtc -name "mooOS installer" -title "mooOS installer" -e sudo moo_installer</TrayButton>
+
+        <TrayButton popup="URxvt Terminal" icon="terminal.png">exec:urxvtc</TrayButton>
+        <TrayButton popup="File Manager" icon="file-manager.png">exec:dolphin</TrayButton>
+        <TrayButton popup="Atome Editor" icon="atom.png">exec:atom</TrayButton>
+        <TrayButton popup="Sublime Editor" icon="sublime-text.png">exec:subl3</TrayButton>
+        <TrayButton popup="sudo Sublime Editor" icon="sublime-text.png">exec:sudo subl3</TrayButton>
+        <TrayButton popup="Mumble" icon="podcast.png">exec:mumble</TrayButton>
+        <TrayButton popup="Steam" icon="steam.png">exec:steam</TrayButton>
+        <TrayButton popup="GIMP" icon="gimp.png">exec:gimp</TrayButton>
+        <TrayButton popup="VLC Player" icon="vlc.png">exec:vlc</TrayButton>
+        <TrayButton popup="Firefox" icon="firefox.png">exec:firefox --profilemanager</TrayButton>
+        <TrayButton popup="Tor Browser" icon="tor-browser-en.png">exec:tor-browser-en</TrayButton>
+        <TrayButton popup="Password Safe" icon="pwsafe.png">exec:pwsafe</TrayButton>
+        <TrayButton popup="Task Manager" icon="gnome-system-monitor.png">exec:lxtask</TrayButton>
+
+        <TaskList maxwidth="200"/>
+
+        <Dock/>
+
+        <Clock format="%a. %b %d %l:%M %p">urxvtc -name "Calendar" -title "Calendar" -hold -e pal</Clock>
+    </Tray>
+    <!-- Visual Styles -->
+    <WindowStyle>
+        <Font>Ubuntu-9:bold</Font>
+        <Width>4</Width>
+        <Height>18</Height>
+        <Active>
+            <Text>#FFFFFF</Text>
+            <Title>#193754:#121212</Title>
+            <Outline>#84C2FF</Outline>
+            <Opacity>1.0</Opacity>
+        </Active>
+        <Inactive>
+            <Text>#FFFFFF</Text>
+            <Title>#333333:#111111</Title>
+            <Outline>#000000</Outline>
+            <!-- <Opacity>0.5:0.9:0.1</Opacity> -->
+            <Opacity>1.0</Opacity>
+        </Inactive>
+    </WindowStyle>
+    <TrayStyle>
+        <Font>Ubuntu-9</Font>
+        <Background>#111111</Background>
+        <Foreground>#FFFFFF</Foreground>
+        <Opacity>1.0</Opacity>
+    </TrayStyle>
+    <TaskListStyle>
+        <Font>Ubuntu-9</Font>
+        <ActiveForeground>#FFFFFF</ActiveForeground>
+        <ActiveBackground>#111111:#333333</ActiveBackground>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#333333:#111111</Background>
+    </TaskListStyle>
+    <PagerStyle>
+        <Outline>#000000</Outline>
+        <Text>#FFFFFF</Text>
+        <Foreground>#444444</Foreground>
+        <Background>#111111</Background>
+        <ActiveForeground>#CC7700</ActiveForeground>
+        <ActiveBackground>#1B9A06</ActiveBackground>
+    </PagerStyle>
+    <MenuStyle>
+        <Font>Ubuntu-10</Font>
+        <Foreground>#FFFFFF</Foreground>
+        <Background>#333333</Background>
+        <ActiveForeground>#FFFFFF</ActiveForeground>
+        <ActiveBackground>#193754:#121212</ActiveBackground>
+        <Opacity>0.85</Opacity>
+    </MenuStyle>
+    <PopupStyle>
+        <Font>Ubuntu-10</Font>
+        <Outline>#000000</Outline>
+        <Foreground>#000000</Foreground>
+        <Background>#999999</Background>
+    </PopupStyle>
+
+    <!-- Path where icons can be found.
+    IconPath can be listed multiple times to allow searching
+    for icons in multiple paths.
+-->
+<IconPath>
+    /usr/share/icons/oxygen/32x32/apps
+</IconPath>
+<IconPath>
+    /usr/share/icons/Faenza/apps/32
+</IconPath>
+<IconPath>
+    /usr/share/icons/hicolor/256x256/apps
+</IconPath>
+<IconPath>
+    /usr/share/pixmaps/
+</IconPath>
+
+<!-- Virtual Desktops -->
+<!-- Desktop tags can be contained within Desktops for desktop names. -->
+<Desktops width="2" height="1">
+    <!-- Default background. Note that a Background tag can be
+    contained within a Desktop tag to give a specific background
+    for that desktop.
+-->
+<Background type="image">$HOME/images/bg.jpg</Background>
+</Desktops>
+
+<!-- Double click speed (in milliseconds) -->
+<DoubleClickSpeed>400</DoubleClickSpeed>
+
+<!-- Double click delta (in pixels) -->
+<DoubleClickDelta>2</DoubleClickDelta>
+
+<!-- The focus model (sloppy or click) -->
+<FocusModel>sloppy</FocusModel>
+
+<!-- The snap mode (none, screen, or border) -->
+<SnapMode distance="10">border</SnapMode>
+
+<!-- The move mode (outline or opaque) -->
+<MoveMode>opaque</MoveMode>
+
+<!-- The resize mode (outline or opaque) -->
+<ResizeMode>opaque</ResizeMode>
+
+<!-- Key bindings -->
+<Key key="Up">up</Key>
+<Key key="Down">down</Key>
+<Key key="Right">right</Key>
+<Key key="Left">left</Key>
+<Key key="h">left</Key>
+<Key key="j">down</Key>
+<Key key="k">up</Key>
+<Key key="l">right</Key>
+<Key key="Return">select</Key>
+<Key key="Escape">escape</Key>
+<!--
+
+A - Alt (mod1)
+C - Control
+S - Shift
+1 - mod1
+2 - mod2
+3 - mod3
+4 - mod4
+5 - mod5
+
+-->
+<Key mask="4" key="Tab">nextstacked</Key>
+<Key mask="4" key="grave">close</Key>
+<Key mask="4" key="#">desktop#</Key>
+<Key mask="4" key="F1">root:1</Key>
+<Key mask="4" key="F2">window</Key>
+<Key mask="4" key="F10">maximize</Key>
+<Key mask="4" key="Right">rdesktop</Key>
+<Key mask="4" key="Left">ldesktop</Key>
+<Key mask="4" key="Up">maximize</Key>
+<Key mask="4" key="Down">minimize</Key>
+<Key mask="4" key="Return">exec:urxvtc</Key>
+<Key mask="4" key="Escape">restart</Key>
+<Key mask="4" key="F12">exec:wmreload</Key>
+<Key mask="4" key="t">showtray</Key>
+
+</JWM>
