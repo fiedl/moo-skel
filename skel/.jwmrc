@@ -8,6 +8,12 @@
         <Separator/>
         <Program icon="file-manager.png" label="File Manager">dolphin</Program>
         <Separator/>
+        <Menu icon="terminal.png" label="Terminal Shells">
+            <Program icon="terminal.png" label="Bash Shell" confirm="false">urxvtc -name "Bash Shell" -title "Bash Shell" -e sh -c "/bin/bash --login"</Program>
+            <Program icon="terminal.png" label="Zsh Shell" confirm="false">urxvtc -name "Zsh Shell" -title "Zsh Shell" -e sh -c "/bin/zsh"</Program>
+            <Program icon="terminal.png" label="Bourne Shell" confirm="false">urxvtc -name "Bourne Shell" -title "Bourne Shell" -e sh -c "/bin/sh --login"</Program>
+        </Menu>
+        <Separator/>
         <Menu icon="text-editor.png" label="Programming and Development">
             <Program icon="atom.png" label="Atom Editor">atom</Program>
             <Program icon="meld.png" label="Meld Diff Editor">meld</Program>
@@ -18,21 +24,21 @@
         </Menu>
 
         <Menu icon="steam.png" label="Games">
-            <Program icon="steam.png" label="Steam">SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS=0 steam --console</Program>
-            <Program icon="xonotic.png" label="Xonotic">xonotic</Program>
+                <Program icon="steam.png" label="Steam">SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS=0 steam --console</Program>
+                <Program icon="xonotic.png" label="Xonotic">xonotic</Program>
         </Menu>
 
         <Menu icon="checkbox.png" label="CLI Utilities">
-            <Program icon="fonts.png" label="Fonts">xfontsel</Program>
-            <Program icon="menu-editor.png" label="Window Properties">xprop | xmessage -file -</Program>
+                <Program icon="gnome-control-center.png" label="CPU Temperature">urxvtc -name "CPUS" -title "CPUS" -e cpus_temp</Program>
+                <Program icon="applications-office.png" label="CPU Frequency">urxvtc -name "CPU Freq" -title "CPU Freq" -e cpu_freq</Program>
+                <Program icon="menu-editor.png" label="Window Properties">xprop | xmessage -file -</Program>
         </Menu>
         <Menu icon="addressbook.png" label="GUI Utilities">
-            <Program icon="gimp.png" label="Gimp">gimp</Program>
             <Program icon="pwsafe.png" label="Password Safe Manager">pwsafe</Program>
             <Program icon="preferences-desktop-wallpaper.png" label="Wallpaper Settings">nitrogen</Program>
             <Program icon="gnome-system-monitor.png" label="Task Manager">lxtask</Program>
         </Menu>
-        <Menu icon="gnome-nettool.png" label="Networking and Internet">
+            <Menu icon="gnome-nettool.png" label="Networking and Internet">
             <Program icon="liferea.png" label="RSS Syndication">canto-curses</Program>
             <Program icon="evolution.png" label="Mutt Email">mutt</Program>
             <Program icon="filezilla.png" label="Filezilla FTP Client">filezilla -s</Program>
@@ -43,28 +49,36 @@
             <Program icon="firefox.png" label="Transmission Torrent Client">transmission-gtk</Program>
         </Menu>
         <Menu icon="preferences-system-firewall.png" label="Network Security">
-            <Program icon="etherape.png" label="Etherape Network Analyzer">sudo etherape</Program>
-            <Program icon="wireshark.png" label="Wireshark Qt">wireshark-qt</Program>
+                <Program icon="etherape.png" label="Etherape Network Analyzer">sudo etherape</Program>
+                <Program icon="wireshark.png" label="Wireshark Qt">wireshark-qt</Program>
         </Menu>
         <Menu icon="mplayer.png" label="Video, Audio and Images">
-            <Program icon="mplayer.png" label="Music On Console Player">mocp</Program>
-            <Program icon="kdenlive.png" label="Kdenlive Video Editor">kdenlive</Program>
-            <Program icon="vlc.png" label="VLC Video Player">vlc</Program>
-            <Program icon="xbmc.png" label="XBMC">xbmc</Program>
-            <Program icon="obs.png" label="Open Broadcasting Studio">obs</Program>
+                <Program icon="gimp.png" label="Gimp Image Editor">gimp</Program>
+                <Program icon="gpicview.png" label="Image Viewer">gpicview</Program>
+                <Program icon="mplayer.png" label="Music On Console Player">mocp</Program>
+                <Program icon="kdenlive.png" label="Kdenlive Video Editor">kdenlive</Program>
+                <Program icon="vlc.png" label="VLC Video Player">vlc</Program>
+                <Program icon="xbmc.png" label="XBMC Media Center">xbmc</Program>
+                <Program icon="obs.png" label="Open Broadcasting Studio">obs</Program>
         </Menu>
         <Separator/>
         <Menu icon="window-manager.png" label="Window Manager">
-            <Program icon="window-manager.png" label="Reload compositor, devilspie2, wallpapers">wmreload</Program>
-            <Program icon="text-editor.png" label="Edit JWM config">atom -n ~/.jwmrc</Program>
-            <Restart icon="window-manager.png" label="Reload JWM"/>
-            <Exit icon="window-manager.png" label="Exit JWM" confirm="true"/>
+                <Program icon="window-manager.png" label="Reload compositor, devilspie2, wallpapers">wmreload</Program>
+                <Program icon="text-editor.png" label="Edit JWM config">atom -n ~/.jwmrc</Program>
+                <Restart icon="window-manager.png" label="Reload JWM"/>
+                <Exit icon="window-manager.png" label="Exit JWM" confirm="true"/>
+        </Menu>
+        <Separator/>
+        <Menu icon="mooOS.png" label="Package Management">
+            <Program icon="update-manager.png" label="Package Updater">urxvtc -name "Package Updater" -title "Package Updater" -e pacupdater</Program>
+            <Program icon="octopi.png" label="Octopi Package Manager">octopi</Program>
+            <Program icon="update-notifier.png" label="Octopi Update Notifier">octopi-notifier</Program>
         </Menu>
         <Separator/>
         <Menu icon="gnome-session.png" label="System">
-            <Program icon="system-suspend.png" label="Lock System">physlock</Program>
-            <Program icon="system-restart.png" label="Restart System">systemctl reboot</Program>
-            <Program icon="system-shut-down.png" label="Poweroff System">systemctl poweroff</Program>
+                <Program icon="system-suspend.png" label="Lock System">physlock</Program>
+                <Program icon="system-restart.png" label="Restart System">systemctl reboot</Program>
+                <Program icon="system-shut-down.png" label="Poweroff System">systemctl poweroff</Program>
         </Menu>
 
     </RootMenu>
@@ -95,9 +109,9 @@
         <Option>desktop:2</Option>
     </Group>
     <Group>
-        <Class>URxvt</Class>
-        <Class>Steam</Class>
-        <Option>nolist</Option>
+            <Class>URxvt</Class>
+            <Class>Steam</Class>
+            <Option>nolist</Option>
     </Group>
 
     <!-- Tray at the left display on bottom orientation. (2nd display) -->
@@ -237,61 +251,66 @@
     </PopupStyle>
 
     <!-- Path where icons can be found.
-    IconPath can be listed multiple times to allow searching
-    for icons in multiple paths.
--->
-<IconPath>
-    /usr/share/icons/oxygen/32x32/apps
-</IconPath>
-<IconPath>
-    /usr/share/icons/Faenza/apps/32
-</IconPath>
-<IconPath>
-    /usr/share/icons/hicolor/256x256/apps
-</IconPath>
-<IconPath>
-    /usr/share/pixmaps/
-</IconPath>
-
+         IconPath can be listed multiple times to allow searching
+         for icons in multiple paths.
+      -->
+    <IconPath>
+        /usr/share/icons/oxygen/32x32/apps
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Faenza/apps/32
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/hicolor/256x256/apps
+    </IconPath>
+    <IconPath>
+        /usr/share/pixmaps/
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/
+    </IconPath>
+    <IconPath>
+        /usr/share/icons/Faenza/categories/32/
+    </IconPath>
 <!-- Virtual Desktops -->
-<!-- Desktop tags can be contained within Desktops for desktop names. -->
-<Desktops width="2" height="1">
-    <!-- Default background. Note that a Background tag can be
-    contained within a Desktop tag to give a specific background
-    for that desktop.
--->
-<Background type="image">$HOME/images/bg.jpg</Background>
-</Desktops>
+    <!-- Desktop tags can be contained within Desktops for desktop names. -->
+    <Desktops count="2" width="2" height="1">
+        <!-- Default background. Note that a Background tag can be
+              contained within a Desktop tag to give a specific background
+              for that desktop.
+         -->
+        <Background type="image">$HOME/images/bg.jpg</Background>
+    </Desktops>
 
-<!-- Double click speed (in milliseconds) -->
-<DoubleClickSpeed>400</DoubleClickSpeed>
+    <!-- Double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
 
-<!-- Double click delta (in pixels) -->
-<DoubleClickDelta>2</DoubleClickDelta>
+    <!-- Double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
 
-<!-- The focus model (sloppy or click) -->
-<FocusModel>sloppy</FocusModel>
+    <!-- The focus model (sloppy or click) -->
+    <FocusModel>sloppy</FocusModel>
 
-<!-- The snap mode (none, screen, or border) -->
-<SnapMode distance="10">border</SnapMode>
+    <!-- The snap mode (none, screen, or border) -->
+    <SnapMode distance="10">border</SnapMode>
 
-<!-- The move mode (outline or opaque) -->
-<MoveMode>opaque</MoveMode>
+    <!-- The move mode (outline or opaque) -->
+    <MoveMode>opaque</MoveMode>
 
-<!-- The resize mode (outline or opaque) -->
-<ResizeMode>opaque</ResizeMode>
+    <!-- The resize mode (outline or opaque) -->
+    <ResizeMode>opaque</ResizeMode>
 
-<!-- Key bindings -->
-<Key key="Up">up</Key>
-<Key key="Down">down</Key>
-<Key key="Right">right</Key>
-<Key key="Left">left</Key>
-<Key key="h">left</Key>
-<Key key="j">down</Key>
-<Key key="k">up</Key>
-<Key key="l">right</Key>
-<Key key="Return">select</Key>
-<Key key="Escape">escape</Key>
+    <!-- Key bindings -->
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="h">left</Key>
+    <Key key="j">down</Key>
+    <Key key="k">up</Key>
+    <Key key="l">right</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
 <!--
 
 A - Alt (mod1)
@@ -304,19 +323,19 @@ S - Shift
 5 - mod5
 
 -->
-<Key mask="4" key="Tab">nextstacked</Key>
-<Key mask="4" key="grave">close</Key>
-<Key mask="4" key="#">desktop#</Key>
-<Key mask="4" key="F1">root:1</Key>
-<Key mask="4" key="F2">window</Key>
-<Key mask="4" key="F10">maximize</Key>
-<Key mask="4" key="Right">rdesktop</Key>
-<Key mask="4" key="Left">ldesktop</Key>
-<Key mask="4" key="Up">maximize</Key>
-<Key mask="4" key="Down">minimize</Key>
-<Key mask="4" key="Return">exec:urxvtc</Key>
-<Key mask="4" key="Escape">restart</Key>
-<Key mask="4" key="F12">exec:wmreload</Key>
-<Key mask="4" key="t">showtray</Key>
+    <Key mask="4" key="Tab">nextstacked</Key>
+    <Key mask="4" key="grave">close</Key>
+    <Key mask="4" key="#">desktop#</Key>
+    <Key mask="4" key="F1">root:1</Key>
+    <Key mask="4" key="F2">window</Key>
+    <Key mask="4" key="F10">maximize</Key>
+    <Key mask="4" key="Right">rdesktop</Key>
+    <Key mask="4" key="Left">ldesktop</Key>
+    <Key mask="4" key="Up">maximize</Key>
+    <Key mask="4" key="Down">minimize</Key>
+    <Key mask="4" key="Return">exec:urxvtc</Key>
+    <Key mask="4" key="Escape">restart</Key>
+    <Key mask="4" key="F12">exec:wmreload</Key>
+    <Key mask="4" key="t">showtray</Key>
 
 </JWM>
