@@ -3746,7 +3746,7 @@ text-renderer=any
 #sub-file=
 
 # Autodetect subtitle files (boolean)
-sub-autodetect-file=0
+#sub-autodetect-file=1
 
 # Subtitle autodetection fuzziness (integer)
 #sub-autodetect-fuzzy=3
@@ -3758,7 +3758,7 @@ sub-autodetect-file=0
 #sub-margin=0
 
 # Subpictures source module (string)
-#sub-source=
+sub-source=dynamicoverlay
 
 # Subpictures filter module (string)
 #sub-filter=
