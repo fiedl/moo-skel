@@ -4,7 +4,8 @@
 
     <!-- The root menu. -->
     <RootMenu onroot="12">
-        <Program icon="terminal.png" label="Terminal">urxvtc</Program>
+        <Program icon="terminal.png" label="UTerminal">urxvtc</Program>
+        <Program icon="terminal.png" label="XTerminal">xterm</Program>
         <Separator/>
         <Program icon="file-manager.png" label="File Manager">dolphin</Program>
         <Separator/>
@@ -85,6 +86,7 @@
 
     <!-- startup applications -->
     <StartupCommand>nitrogen --restore</StartupCommand>
+    <!-- <StartupCommand>roccateventhandler</StartupCommand> -->
     <StartupCommand>volumeicon</StartupCommand>
     <StartupCommand>synapse</StartupCommand>
     <StartupCommand>devilspie2_reload</StartupCommand>
@@ -155,6 +157,9 @@
         <TrayButton popup="Atome Editor" icon="atom.png">exec:atom</TrayButton>
         <TrayButton popup="Sublime Editor" icon="sublime-text.png">exec:subl3</TrayButton>
         <TrayButton popup="sudo Sublime Editor" icon="sublime-text.png">exec:sudo subl3</TrayButton>
+        <TrayButton popup="Qtcreator" icon="qtcreator.png">exec:qtcreator -style=gtk</TrayButton>
+        <TrayButton popup="Kdevelop" icon="kdevelop.png">exec:kdevelop</TrayButton>
+        <TrayButton popup="Unreal Editor" icon="unreal.png">exec:ue4</TrayButton>
         <TrayButton popup="GIMP" icon="gimp.png">exec:gimp</TrayButton>
         <TrayButton popup="Firefox" icon="firefox.png">exec:firefox --profilemanager</TrayButton>
         <TrayButton popup="Tor Browser" icon="tor-browser-en.png">exec:tor-browser-en</TrayButton>
@@ -180,10 +185,10 @@
         <TrayButton popup="Atome Editor" icon="atom.png">exec:atom</TrayButton>
         <TrayButton popup="Sublime Editor" icon="sublime-text.png">exec:subl3</TrayButton>
         <TrayButton popup="sudo Sublime Editor" icon="sublime-text.png">exec:sudo subl3</TrayButton>
-        <TrayButton popup="Mumble" icon="podcast.png">exec:mumble</TrayButton>
-        <TrayButton popup="Steam" icon="steam.png">exec:steam</TrayButton>
+        <TrayButton popup="Qtcreator" icon="qtcreator.png">exec:qtcreator -style=gtk</TrayButton>
+        <TrayButton popup="Kdevelop" icon="kdevelop.png">exec:kdevelop</TrayButton>
+        <TrayButton popup="Unreal Editor" icon="unreal.png">exec:ue4</TrayButton>
         <TrayButton popup="GIMP" icon="gimp.png">exec:gimp</TrayButton>
-        <TrayButton popup="VLC Player" icon="vlc.png">exec:vlc</TrayButton>
         <TrayButton popup="Firefox" icon="firefox.png">exec:firefox --profilemanager</TrayButton>
         <TrayButton popup="Tor Browser" icon="tor-browser-en.png">exec:tor-browser-en</TrayButton>
         <TrayButton popup="Password Safe" icon="pwsafe.png">exec:pwsafe</TrayButton>
