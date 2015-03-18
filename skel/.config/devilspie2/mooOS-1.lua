@@ -53,13 +53,15 @@ end
 -- Make htop start where it belongs
 if (get_window_class()=="URxvt" and get_class_instance_name()=="HTOP") then
 	undecorate_window();
-	set_window_geometry(1920,900,650,238);
+	--set_window_geometry(1920,900,650,238);
+	set_window_geometry(0,1678,860,280);
 end
 
 -- Make root urxvtc start where it belongs
 if (get_window_class()=="URxvt" and get_class_instance_name()=="Sysadmin") then
 	undecorate_window();
-	set_window_geometry(0,1678,860,280);
+	set_window_geometry(1920,900,650,238);
+	-- set_window_geometry(0,1678,860,280);
 end
 
 -- Make urxvtc instance 1 start where it belongs
@@ -147,7 +149,9 @@ end
 -- Kdenlive Clip monitor
 if (get_window_class()=="Kdenlive" and get_window_name()=="&Clip Monitor") then
 	undecorate_window();
+	-- set_window_geometry2(2130,0,1440,900);
 	set_window_geometry2(2000,900,1840,1080);
+
 end
 
 -- Kdenlive Project monitor
@@ -159,25 +163,25 @@ end
 -- Kdenlive Project Tree
 if (get_window_class()=="Kdenlive" and get_window_name()=="&Project Tree") then
 	undecorate_window();
-	set_window_geometry2(0,900,524,761);
+	set_window_geometry2(0,900,524,731);
 end
 
 -- Kdenlive Transition
 if (get_window_class()=="Kdenlive" and get_window_name()=="&Transition") then
 	undecorate_window();
-	set_window_geometry2(1200,1636,720,318);
+	set_window_geometry2(1200,1636,720,348);
 end
 
 -- Kdenlive Effect Stack
 if (get_window_class()=="Kdenlive" and get_window_name()=="&Effect Stack") then
 	undecorate_window();
-	set_window_geometry2(517,1635,688,321);
+	set_window_geometry2(517,1635,688,351);
 end
 
 -- Kdenlive Effect List
 if (get_window_class()=="Kdenlive" and (get_window_name()=="&Effect List" or get_window_name()=="&Effect List")) then
 	undecorate_window();
-	set_window_geometry2(0,1650,522,311);
+	set_window_geometry2(0,1630,522,348);
 end
 
 -- Wasteland titlebar remove
@@ -203,6 +207,44 @@ if (get_class_instance_name()=="CivBE") then
 	undecorate_window();
 	set_window_geometry2(1920,900,1920,1080);
 end
+
+-- Witcher 2 titlebar remove
+if (get_class_instance_name()=="witcher2") then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
+end
+
+-- Xonotic titlebar remove
+if (get_class_instance_name()=="xonotic-sdl") then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
+end
+
+-- KKF titlebar remove
+if (get_window_name()=="Kings of Kung Fu") then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
+end
+
+-- KKF titlebar remove
+if (get_window_name()=="DeadIsland") then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
+end
+
+-- KKF titlebar remove
+if (get_class_instance_name()=="War Thunder") then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
+end
+
+-- KKF titlebar remove
+if (get_window_name()=="Oddworld New 'n' Tasty") then
+	undecorate_window();
+	set_window_geometry2(1920,900,1920,1080);
+end
+
+
 -- reference manual http://www.gusnan.se/devilspie2/manual.php
 
 -- End

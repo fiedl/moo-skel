@@ -1,6 +1,6 @@
 /**
   FoxyProxy
-  Copyright (C) 2006-2014 Eric H. Jung and FoxyProxy, Inc.
+  Copyright (C) 2006-2015 Eric H. Jung and FoxyProxy, Inc.
   http://getfoxyproxy.org/
   eric.jung@getfoxyproxy.org
 
@@ -876,7 +876,7 @@ ManualConf.prototype = {
   // via proxy:// URL won't work.
   username : "",
   password : "",
-  domain : null,
+  domain : "",
   fp : null,
   owner: null,
 
@@ -913,9 +913,9 @@ ManualConf.prototype = {
 
     // No "null" assignment for username and password. Otherwise the auto import
     // via proxy:// URL won't work.
-    this.username = pc.username ? pc.username : "";
-    this.password = pc.password ? pc.password : "";
-    this.ntlmDomain = pc.ntlmDomain;
+    this.username = mc.username ? mc.username : "";
+    this.password = mc.password ? mc.password : "";
+    this.domain = mc.ntlmDomain ? mc.ntlmDomain : "";
 
     this._makeProxy();
   },
