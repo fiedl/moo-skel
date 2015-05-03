@@ -69,14 +69,14 @@ Width 1920=683
 
 [MainWindow]
 Height 1024=484
-Height 1080=560
-Height 900=573
+Height 1080=629
+Height 900=713
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAABqAAACDPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAgAAADQgAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAkAAACDAAAAEsA////AAAAAQAAALIAAAJK/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAB4AAAJKAAAABAD////7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAAD/////AAAAAAAAAAAAAAADAAADkQAAAJP8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADkQAAAAQA////AAADLQAAAgwAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAB1AAACVfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAgAAADQgAAAAQA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAgAAACVQAAAD0A////AAAAAQAAALIAAALk/AIAAAAC+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACQAAALkAAAABAD////7AAAAFABzAGUAYQByAGMAaABEAG8AYwBrAAAAAAD/////AAAAAAAAAAAAAAADAAADkQAAAJP8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADkQAAAAQA////AAADuQAAAlUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1280=813
-Width 1440=913
-Width 1920=925
+Width 1440=1012
+Width 1920=1076
 
 [MainWindow][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
@@ -88,7 +88,7 @@ ShowVcsRestartInformation=false
 
 [Open-with settings]
 CompletionMode=5
-History=/usr/bin/atom %U,avidemux2_qt4,subl3 %F,sudo subl3 %F,totem %U,cr3 %F,xpdf %f,avidemux2_gtk,sudo_subl3
+History=/usr/bin/atom %U,meld %F,avidemux2_qt4,subl3 %F,sudo subl3 %F,totem %U,cr3 %F,xpdf %f,avidemux2_gtk,sudo_subl3
 
 [PreviewSettings]
 Plugins=comicbookthumbnail,cursorthumbnail,desktopthumbnail,directorythumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,westleypreview,windowsexethumbnail,windowsimagethumbnail,svgthumbnail,textthumbnail,ffmpegthumbs

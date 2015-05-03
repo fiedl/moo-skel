@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 2.2.0
+###  vlc 2.2.1
 ###
 
 ###
@@ -1999,7 +1999,7 @@ qt-privacy-ask=0
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 2.2.0 Weatherwax
+#sout-avi-encoder=VLC Media Player - 2.2.1 Terry Pratchett (Weatherwax)
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -4184,7 +4184,7 @@ advanced=1
 #interact=1
 
 # Locally collect statistics (boolean)
-#stats=0
+#stats=1
 
 # Interface module (string)
 #intf=
