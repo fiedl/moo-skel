@@ -7,7 +7,7 @@ debug_print("Window Class: " .. get_window_class());
 -- debug_print("Window Class instance: " .. get_class_instance_name());
 debug_print("Application name: " .. get_application_name());
 debug_print("Window geometry: " .. get_window_client_geometry());
--- debug_print("Screen geometry: " .. get_screen_geometry());
+debug_print("Screen geometry: " .. get_screen_geometry());
 
 -- Strings are case sensitive, please note this when creating rule scripts.
 
@@ -17,6 +17,14 @@ debug_print("Window geometry: " .. get_window_client_geometry());
 -- xrandr --output DVI-I-0 --auto --pos 2130x0
 --        --output HDMI-0 --auto --pos 0x900
 --        --output DVI-D-0 --auto --primary --pos 1920x900
+
+
+-- Make cpu frequency monitor start where it belongs
+if (get_window_class()=="XTerm" and get_application_name()=="[pdq@alice][~]% (pyradio)") then
+	-- undecorate_window();
+	-- set_window_geometry(958,1436,320,130);
+	set_window_geometry(1008,940,600,140);
+end
 
 -- Make weechat instance 1 start where it belongs
 if (get_window_class()=="URxvt" and get_class_instance_name()=="IRC1") then

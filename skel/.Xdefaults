@@ -71,7 +71,7 @@ URxvt*colorIT:      #87af5f
 URxvt*colorBD:      #A0CF5D
 URxvt*colorUL:      #87afd7
 
-xterm*faceName: Liberation Mono:size=16:antialias=false
+xterm*faceName: Liberation Mono:size=13:antialias=false
 xterm*bellIsUrgent: true
 XTerm*scaleHeight: 1.01
 xterm*borderWidth: 0
